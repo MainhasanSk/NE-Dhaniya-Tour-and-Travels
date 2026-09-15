@@ -1,0 +1,84 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    function isAdmin() {
+      return isAuthenticated() && (
+        request.auth.token.admin == true ||
+        exists(/databases/$(database)/documents/admins/$(request.auth.uid))
+      );
+    }
+    
+    // Site Settings: Public read, Admin write
+    match /siteSettings/{document=**} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+    
+    // Destinations: Public read published, Admin write
+    match /destinations/{destId} {
+      allow read: if resource.data.status == 'published' || isAdmin();
+      allow write: if isAdmin();
+    }
+    
+    // Tourist Places: Public read published, Admin write
+    match /touristPlaces/{placeId} {
+      allow read: if resource.data.status == 'published' || isAdmin();
+      allow write: if isAdmin();
+    }
+    
+    // Tour Packages: Public read published, Admin write
+    match /tourPackages/{packageId} {
+      allow read: if resource.data.status == 'published' || isAdmin();
+      allow write: if isAdmin();
+    }
+    
+    // Vehicles: Public read, Admin write
+    match /vehicles/{vehicleId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+    
+    // Blogs & Categories: Public read published, Admin write
+    match /blogs/{blogId} {
+      allow read: if resource.data.status == 'published' || isAdmin();
+      allow write: if isAdmin();
+    }
+    
+    match /blogCategories/{categoryId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+    
+    // Media metadata: Public read, Admin write
+    match /media/{mediaId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+    
+    // Enquiries: Public can create with valid fields, only Admin can read/update/delete
+    match /enquiries/{enquiryId} {
+      allow create: if request.resource.data.name is string &&
+                       request.resource.data.phone is string &&
+                       request.resource.data.destination is string;
+      allow read, update, delete: if isAdmin();
+    }
+    
+    // Admins collection: Only authenticated admins can manage
+    match /admins/{adminId} {
+      allow read: if isAuthenticated();
+      allow write: if isAdmin();
+    }
+    
+    // Redirects: Public read, Admin write
+    match /redirects/{redirectId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+  }
+}
