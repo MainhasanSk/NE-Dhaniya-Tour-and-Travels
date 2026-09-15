@@ -478,6 +478,15 @@ export default async function HomePage() {
               <Phone className="w-4 h-4 text-emerald-300" />
               <span>Call {settings.phoneNumber}</span>
             </a>
+            {settings.secondaryPhoneNumber && (
+              <a
+                href={`tel:${settings.secondaryPhoneNumber.replace(/\s+/g, '')}`}
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 py-4 px-8 rounded-full bg-white/10 hover:bg-white/20 text-white font-semibold text-sm sm:text-base border border-white/20 transition-all"
+              >
+                <Phone className="w-4 h-4 text-emerald-300" />
+                <span>Call {settings.secondaryPhoneNumber}</span>
+              </a>
+            )}
           </div>
         </div>
       </section>

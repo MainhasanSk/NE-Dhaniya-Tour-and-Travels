@@ -177,7 +177,7 @@ export const Header: React.FC<HeaderProps> = ({ settings }) => {
         </nav>
 
         {/* Action Buttons */}
-        <div className="hidden sm:flex items-center gap-3">
+        <div className="hidden sm:flex items-center gap-2">
           <a
             href={`tel:${settings.phoneNumber.replace(/\s+/g, '')}`}
             className={`flex items-center gap-1.5 text-xs font-semibold px-3 py-2 rounded-full border transition-all ${
@@ -185,10 +185,26 @@ export const Header: React.FC<HeaderProps> = ({ settings }) => {
                 ? "border-slate-200 text-slate-700 hover:bg-slate-50" 
                 : "border-white/30 text-white hover:bg-white/10"
             }`}
+            title={`Call ${settings.phoneNumber}`}
           >
             <Phone className="w-3.5 h-3.5 text-emerald-500" />
-            <span>Call Us</span>
+            <span>{settings.phoneNumber}</span>
           </a>
+
+          {settings.secondaryPhoneNumber && (
+            <a
+              href={`tel:${settings.secondaryPhoneNumber.replace(/\s+/g, '')}`}
+              className={`hidden xl:flex items-center gap-1.5 text-xs font-semibold px-3 py-2 rounded-full border transition-all ${
+                isScrolled 
+                  ? "border-slate-200 text-slate-700 hover:bg-slate-50" 
+                  : "border-white/30 text-white hover:bg-white/10"
+              }`}
+              title={`Call ${settings.secondaryPhoneNumber}`}
+            >
+              <Phone className="w-3.5 h-3.5 text-emerald-500" />
+              <span>{settings.secondaryPhoneNumber}</span>
+            </a>
+          )}
 
           <a
             href={whatsappUrl}

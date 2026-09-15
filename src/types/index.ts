@@ -172,6 +172,7 @@ export interface SiteSettings {
   tagline: string;
   whatsappNumber: string;
   phoneNumber: string;
+  secondaryPhoneNumber?: string;
   email: string;
   address: string;
   googleMapsUrl?: string;

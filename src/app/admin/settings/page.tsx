@@ -81,14 +81,27 @@ export default function AdminSettingsPage() {
 
             <div>
               <label className="block text-xs font-semibold text-slate-300 mb-1">
-                Public Calling Phone Number *
+                Primary Phone Number *
               </label>
               <input
                 type="text"
                 required
                 value={settings.phoneNumber}
                 onChange={(e) => setSettings({ ...settings, phoneNumber: e.target.value })}
-                placeholder="e.g. +91 98640 00000"
+                placeholder="e.g. +91 96782 90128"
+                className="w-full bg-slate-900 border border-slate-800 rounded-xl px-4 py-2.5 text-xs sm:text-sm text-white focus:outline-none focus:ring-2 focus:ring-emerald-500"
+              />
+            </div>
+
+            <div>
+              <label className="block text-xs font-semibold text-slate-300 mb-1">
+                Secondary Phone Number
+              </label>
+              <input
+                type="text"
+                value={settings.secondaryPhoneNumber || ""}
+                onChange={(e) => setSettings({ ...settings, secondaryPhoneNumber: e.target.value })}
+                placeholder="e.g. +91 98640 66495"
                 className="w-full bg-slate-900 border border-slate-800 rounded-xl px-4 py-2.5 text-xs sm:text-sm text-white focus:outline-none focus:ring-2 focus:ring-emerald-500"
               />
             </div>

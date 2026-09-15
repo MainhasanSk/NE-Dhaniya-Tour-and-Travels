@@ -16,9 +16,10 @@ import { createWhatsAppLink } from "@/lib/whatsapp";
 import { submitEnquiry } from "@/lib/firebase/dataBridge";
 
 export default function ContactPage() {
-  const whatsappNumber = "919864000000";
-  const phoneNumber = "+91 98640 00000";
-  const email = "info@nedhaniyatours.com";
+  const whatsappNumber = "919678290128";
+  const phoneNumber = "+91 96782 90128";
+  const secondaryPhoneNumber = "+91 98640 66495";
+  const email = "menin.ghy123@gmail.com";
   const address = "Guwahati, Assam, India - 781001 (Gateway to Northeast India)";
   const businessHours = "Monday - Sunday: 7:00 AM - 10:00 PM (WhatsApp Support 24/7)";
 
@@ -138,9 +139,14 @@ export default function ContactPage() {
                 <Phone className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
                 <div>
                   <strong className="block text-slate-900">Phone Support</strong>
-                  <a href={`tel:${phoneNumber.replace(/\s+/g, '')}`} className="text-forest-700 font-semibold hover:underline">
-                    {phoneNumber}
-                  </a>
+                  <div className="flex flex-col gap-1 mt-1">
+                    <a href={`tel:${phoneNumber.replace(/\s+/g, '')}`} className="text-forest-700 font-semibold hover:underline">
+                      {phoneNumber}
+                    </a>
+                    <a href={`tel:${secondaryPhoneNumber.replace(/\s+/g, '')}`} className="text-forest-700 font-semibold hover:underline">
+                      {secondaryPhoneNumber}
+                    </a>
+                  </div>
                 </div>
               </div>
 
@@ -148,7 +154,7 @@ export default function ContactPage() {
                 <Mail className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
                 <div>
                   <strong className="block text-slate-900">Email Enquiries</strong>
-                  <a href={`mailto:${email}`} className="text-forest-700 font-semibold hover:underline">
+                  <a href={`mailto:${email}`} className="text-forest-700 font-semibold hover:underline mt-1 block">
                     {email}
                   </a>
                 </div>

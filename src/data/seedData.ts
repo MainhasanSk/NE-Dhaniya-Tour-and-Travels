@@ -11,9 +11,10 @@ import {
 export const initialSiteSettings: SiteSettings = {
   businessName: "NE Dhaniya Tours & Travels",
   tagline: "Your Trusted Travel Partner for Northeast India & Bhutan",
-  whatsappNumber: "919864000000",
-  phoneNumber: "+91 98640 00000",
-  email: "info@nedhaniyatours.com",
+  whatsappNumber: "919678290128",
+  phoneNumber: "+91 96782 90128",
+  secondaryPhoneNumber: "+91 98640 66495",
+  email: "menin.ghy123@gmail.com",
   address: "Guwahati, Assam, India - 781001 (Gateway to Northeast India)",
   businessHours: "Monday - Sunday: 7:00 AM - 10:00 PM (WhatsApp Support 24/7)",
   socialLinks: {
