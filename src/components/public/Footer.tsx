@@ -99,7 +99,7 @@ export const Footer: React.FC<FooterProps> = ({ settings }) => {
               <div className="relative w-48 h-14 bg-white/5 rounded-lg p-2">
                 <Image 
                   src="/images/logo.png" 
-                  alt="NE Dhaniya Tours & Travels" 
+                  alt="NE Dhanya Tour and Travels" 
                   fill
                   className="object-contain object-left"
                 />
@@ -163,7 +163,7 @@ export const Footer: React.FC<FooterProps> = ({ settings }) => {
           {/* Contact Col */}
           <div className="space-y-3">
             <h3 className="text-xs font-bold uppercase tracking-wider text-emerald-400">
-              Contact NE Dhaniya
+              Contact NE Dhanya
             </h3>
             <ul className="space-y-3 text-sm text-slate-400">
               <li className="flex items-start gap-2.5">

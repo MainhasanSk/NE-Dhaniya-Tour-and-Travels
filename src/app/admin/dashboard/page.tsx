@@ -153,7 +153,7 @@ export default async function AdminDashboardPage() {
             {enquiries.slice(0, 5).map((enq) => {
               const waUrl = createWhatsAppLink(
                 enq.phone,
-                `Hello ${enq.name}, thank you for contacting NE Dhaniya Tours & Travels regarding your ${enq.destination} trip.`
+                `Hello ${enq.name}, thank you for contacting NE Dhanya Tour and Travels regarding your ${enq.destination} trip.`
               );
 
               return (

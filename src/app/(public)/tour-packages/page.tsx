@@ -20,7 +20,7 @@ export default async function TourPackagesPage() {
   const settings = await getSiteSettings();
   const customWhatsAppUrl = createWhatsAppLink(
     settings.whatsappNumber,
-    "Hello NE Dhaniya Tours & Travels, I want to create a customized Northeast tour package. Please share itinerary ideas."
+    "Hello NE Dhanya Tour and Travels, I want to create a customized Northeast tour package. Please share itinerary ideas."
   );
 
   return (

@@ -9,7 +9,7 @@ import {
 } from '../types';
 
 export const initialSiteSettings: SiteSettings = {
-  businessName: "NE Dhaniya Tours & Travels",
+  businessName: "NE Dhanya Tour and Travels",
   tagline: "Your Trusted Travel Partner for Northeast India & Bhutan",
   whatsappNumber: "919678290128",
   phoneNumber: "+91 96782 90128",
@@ -18,14 +18,14 @@ export const initialSiteSettings: SiteSettings = {
   address: "Guwahati, Assam, India - 781001 (Gateway to Northeast India)",
   businessHours: "Monday - Sunday: 7:00 AM - 10:00 PM (WhatsApp Support 24/7)",
   socialLinks: {
-    facebook: "https://facebook.com/nedhaniyatours",
-    instagram: "https://instagram.com/nedhaniyatours",
-    youtube: "https://youtube.com/@nedhaniyatours",
+    facebook: "https://facebook.com/nedhanyatours",
+    instagram: "https://instagram.com/nedhanyatours",
+    youtube: "https://youtube.com/@nedhanyatours",
   },
-  defaultMetaTitle: "NE Dhaniya Tours & Travels | Northeast India Tour Packages, Car Rental & Taxi Services",
-  defaultMetaDescription: "Explore Assam, Meghalaya, Arunachal, Sikkim, Nagaland & Bhutan with NE Dhaniya Tours & Travels. Personal & sharing tours, premium car rental, hotel booking & 24/7 local support.",
+  defaultMetaTitle: "NE Dhanya Tour and Travels | Northeast India Tour Packages, Car Rental & Taxi Services",
+  defaultMetaDescription: "Explore Assam, Meghalaya, Arunachal, Sikkim, Nagaland & Bhutan with NE Dhanya Tour and Travels. Personal & sharing tours, premium car rental, hotel booking & 24/7 local support.",
   defaultOgImage: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-  websiteName: "NE Dhaniya Tours & Travels",
+  websiteName: "NE Dhanya Tour and Travels",
 };
 
 export const initialDestinations: Destination[] = [
@@ -72,14 +72,14 @@ export const initialDestinations: Destination[] = [
       },
       {
         question: "Can I choose between Personal and Sharing tours in Meghalaya?",
-        answer: "Yes! NE Dhaniya Tours & Travels offers private vehicles (Innova Crysta, Sedan, Traveler) for families/couples, as well as economical sharing tour options for solo travelers and students."
+        answer: "Yes! NE Dhanya Tour and Travels offers private vehicles (Innova Crysta, Sedan, Traveler) for families/couples, as well as economical sharing tour options for solo travelers and students."
       },
       {
         question: "Is Inner Line Permit (ILP) required for Indian tourists visiting Meghalaya?",
         answer: "No, Indian citizens currently do not need an Inner Line Permit (ILP) to visit Meghalaya. Valid government photo ID (Aadhaar or Voter ID) is sufficient."
       }
     ],
-    seoTitle: "Meghalaya Tour Packages, Taxi & Car Rental | NE Dhaniya Tours & Travels",
+    seoTitle: "Meghalaya Tour Packages, Taxi & Car Rental | NE Dhanya Tour and Travels",
     seoDescription: "Book custom Meghalaya tour packages, Shillong taxi services & car rentals. Explore Cherrapunji, Dawki, Living Root Bridges & waterfalls with local Northeast experts.",
     status: "published",
     featured: true,
@@ -123,10 +123,10 @@ export const initialDestinations: Destination[] = [
       },
       {
         question: "Can I book a car rental from Guwahati to Kaziranga or Shillong?",
-        answer: "Yes, NE Dhaniya Tours provides dedicated outstation cabs, Innova Crysta, Sedans, and Tempo Travelers directly from Guwahati Airport / Railway Station."
+        answer: "Yes, NE Dhanya Tour and Travels provides dedicated outstation cabs, Innova Crysta, Sedans, and Tempo Travelers directly from Guwahati Airport / Railway Station."
       }
     ],
-    seoTitle: "Assam Tour Packages, Car Rental & Travel Services | NE Dhaniya Tours",
+    seoTitle: "Assam Tour Packages, Car Rental & Travel Services | NE Dhanya Tour and Travels",
     seoDescription: "Discover Kaziranga National Park, Kamakhya Temple, Majuli & Assam tea gardens. Reliable taxi services, private cabs & customized Assam tour packages.",
     status: "published",
     featured: true,
@@ -148,7 +148,7 @@ export const initialDestinations: Destination[] = [
       byRoad: "The classic route runs from Guwahati / Tezpur through Bhalukpong, Bomdila, Dirang, Sela Pass to Tawang over well-maintained Trans-Arunachal highway sections."
     },
     travelTips: [
-      "Inner Line Permit (ILP) is mandatory for all Indian citizens and Protected Area Permit (PAP) for foreign nationals. NE Dhaniya Tours arranges permits seamlessly.",
+      "Inner Line Permit (ILP) is mandatory for all Indian citizens and Protected Area Permit (PAP) for foreign nationals. NE Dhanya Tour and Travels arranges permits seamlessly.",
       "Acclimatize in Bomdila or Dirang before ascending to Tawang to avoid altitude sickness.",
       "Pack thermal innerwear, heavy woolens, and windproof jackets as temperatures drop near freezing around Sela Pass and Bumla."
     ],
@@ -165,14 +165,14 @@ export const initialDestinations: Destination[] = [
     faqs: [
       {
         question: "How do I get an Inner Line Permit (ILP) for Arunachal Pradesh?",
-        answer: "ILP can be applied online with your passport photo and ID proof. When you book your tour with NE Dhaniya Tours, our team assists you with ILP and Bumla Pass permits."
+        answer: "ILP can be applied online with your passport photo and ID proof. When you book your tour with NE Dhanya Tour and Travels, our team assists you with ILP and Bumla Pass permits."
       },
       {
         question: "How many days are required for the Guwahati to Tawang tour?",
         answer: "A minimum of 6 to 8 days is required to safely travel from Guwahati to Tawang and back with proper acclimatization stops in Bomdila or Dirang."
       }
     ],
-    seoTitle: "Arunachal Pradesh Tour Packages & Tawang Taxi Service | NE Dhaniya",
+    seoTitle: "Arunachal Pradesh Tour Packages & Tawang Taxi Service | NE Dhanya",
     seoDescription: "Book Tawang tour packages, Guwahati to Tawang taxi service & Arunachal Pradesh car rentals. Explore Sela Pass, Bumla Pass & Ziro Valley with local expertise.",
     status: "published",
     featured: true,
@@ -218,8 +218,8 @@ export const initialDestinations: Destination[] = [
         answer: "Due to rugged mountain terrain, North Sikkim strictly requires high-clearance 4x4 or robust vehicles such as Innova Crysta, Scorpio, or Bolero with experienced local hill drivers."
       }
     ],
-    seoTitle: "Sikkim Tour Packages & Gangtok Taxi Service | NE Dhaniya Tours",
-    seoDescription: "Experience Gangtok, North Sikkim, Lachung, Yumthang Valley & Nathula Pass. Book custom Sikkim tour packages and reliable car rentals with NE Dhaniya.",
+    seoTitle: "Sikkim Tour Packages & Gangtok Taxi Service | NE Dhanya Tour and Travels",
+    seoDescription: "Experience Gangtok, North Sikkim, Lachung, Yumthang Valley & Nathula Pass. Book custom Sikkim tour packages and reliable car rentals with NE Dhanya.",
     status: "published",
     featured: true,
     createdAt: "2025-01-01T00:00:00.000Z",
@@ -262,8 +262,8 @@ export const initialDestinations: Destination[] = [
         answer: "The Dzukou Valley trek is moderately challenging. The initial 1.5 to 2 hours climb through stone steps is steep, followed by a gentle, rewarding walk across the valley floor."
       }
     ],
-    seoTitle: "Nagaland Tour Packages, Hornbill Festival & Dzukou Valley | NE Dhaniya",
-    seoDescription: "Explore Nagaland with NE Dhaniya Tours. Tailored Kohima packages, Dzukou Valley trek support, Hornbill Festival tours & reliable Nagaland taxi services.",
+    seoTitle: "Nagaland Tour Packages, Hornbill Festival & Dzukou Valley | NE Dhanya",
+    seoDescription: "Explore Nagaland with NE Dhanya Tour and Travels. Tailored Kohima packages, Dzukou Valley trek support, Hornbill Festival tours & reliable Nagaland taxi services.",
     status: "published",
     featured: false,
     createdAt: "2025-01-01T00:00:00.000Z",
@@ -302,7 +302,7 @@ export const initialDestinations: Destination[] = [
         answer: "Yes, domestic tourists from India need an ILP to enter Mizoram, which can be acquired online or through liaison offices."
       }
     ],
-    seoTitle: "Mizoram Tour Packages & Aizawl Car Rental | NE Dhaniya Tours",
+    seoTitle: "Mizoram Tour Packages & Aizawl Car Rental | NE Dhanya Tour and Travels",
     seoDescription: "Discover Aizawl, Reiek Peak, Vantawng Falls & Tamdil Lake. Custom Mizoram tour packages, comfortable car rentals & guided local itineraries.",
     status: "published",
     featured: false,
@@ -342,8 +342,8 @@ export const initialDestinations: Destination[] = [
         answer: "No, Indian citizens do not need any inner line permit to visit Tripura."
       }
     ],
-    seoTitle: "Tripura Tour Packages & Agartala Taxi Service | NE Dhaniya Tours",
-    seoDescription: "Visit Ujjayanta Palace, Neermahal, Unakoti & Jampui Hills. Book customized Tripura tour packages & private taxi rentals with NE Dhaniya Tours.",
+    seoTitle: "Tripura Tour Packages & Agartala Taxi Service | NE Dhanya Tour and Travels",
+    seoDescription: "Visit Ujjayanta Palace, Neermahal, Unakoti & Jampui Hills. Book customized Tripura tour packages & private taxi rentals with NE Dhanya Tour and Travels.",
     status: "published",
     featured: false,
     createdAt: "2025-01-01T00:00:00.000Z",
@@ -379,14 +379,14 @@ export const initialDestinations: Destination[] = [
     faqs: [
       {
         question: "Can I take a road trip to Bhutan from Guwahati, Assam?",
-        answer: "Yes! NE Dhaniya Tours operates direct cross-border vehicle transfers and guided Bhutan packages from Guwahati via Samdrup Jongkhar or Phuentsholing."
+        answer: "Yes! NE Dhanya Tour and Travels operates direct cross-border vehicle transfers and guided Bhutan packages from Guwahati via Samdrup Jongkhar or Phuentsholing."
       },
       {
         question: "Is passport mandatory for Indians visiting Bhutan?",
         answer: "Indian citizens can travel to Bhutan with either a valid Indian Passport (min 6 months validity) OR an original Voter Identity Card issued by the Election Commission of India. Aadhaar is not accepted for entry permit issuance."
       }
     ],
-    seoTitle: "Bhutan Tour Packages from India & Assam | NE Dhaniya Tours & Travels",
+    seoTitle: "Bhutan Tour Packages from India & Assam | NE Dhanya Tour and Travels",
     seoDescription: "Book unforgettable Bhutan tour packages from Guwahati, Assam. Visit Paro Tiger's Nest, Thimphu, Punakha & Dochula Pass with complete permit & car assistance.",
     status: "published",
     featured: true,
@@ -425,11 +425,11 @@ export const initialTouristPlaces: TouristPlace[] = [
     faqs: [
       {
         question: "What is the taxi fare from Guwahati Airport to Shillong?",
-        answer: "NE Dhaniya Tours offers direct Guwahati to Shillong private car transfers starting with competitive rates for Sedans, Innova Crysta, and sharing options."
+        answer: "NE Dhanya Tour and Travels offers direct Guwahati to Shillong private car transfers starting with competitive rates for Sedans, Innova Crysta, and sharing options."
       }
     ],
-    seoTitle: "Shillong Tour & Travel Guide | Shillong Taxi Service | NE Dhaniya",
-    seoDescription: "Plan your trip to Shillong, Meghalaya. Top tourist attractions, Guwahati to Shillong taxi fares, hotels, and custom travel packages with NE Dhaniya Tours.",
+    seoTitle: "Shillong Tour & Travel Guide | Shillong Taxi Service | NE Dhanya",
+    seoDescription: "Plan your trip to Shillong, Meghalaya. Top tourist attractions, Guwahati to Shillong taxi fares, hotels, and custom travel packages with NE Dhanya Tour and Travels.",
     status: "published",
     createdAt: "2025-01-01T00:00:00.000Z",
     updatedAt: "2025-01-01T00:00:00.000Z"
@@ -465,7 +465,7 @@ export const initialTouristPlaces: TouristPlace[] = [
         answer: "Yes, Cherrapunji can be explored as a day trip from Shillong, but staying at least 1 or 2 nights is recommended to experience sunset and root bridge trails comfortably."
       }
     ],
-    seoTitle: "Cherrapunji Tour Packages & Shillong to Sohra Taxi | NE Dhaniya",
+    seoTitle: "Cherrapunji Tour Packages & Shillong to Sohra Taxi | NE Dhanya",
     seoDescription: "Visit Nohkalikai Falls, Mawsmai Cave & Seven Sisters Falls in Cherrapunji. Book private cabs and customizable Sohra packages with local drivers.",
     status: "published",
     createdAt: "2025-01-01T00:00:00.000Z",
@@ -502,7 +502,7 @@ export const initialTouristPlaces: TouristPlace[] = [
         answer: "December, January, and February offer the most crystal-clear waters with maximum visibility down to the riverbed pebbles."
       }
     ],
-    seoTitle: "Dawki Tour Packages, Umngot River Boating & Taxi | NE Dhaniya",
+    seoTitle: "Dawki Tour Packages, Umngot River Boating & Taxi | NE Dhanya",
     seoDescription: "Experience Dawki crystal clear river boating, Shnongpdeng camping & water sports. Book Shillong to Dawki taxi service & customized Meghalaya tours.",
     status: "published",
     createdAt: "2025-01-01T00:00:00.000Z",
@@ -541,7 +541,7 @@ export const initialTouristPlaces: TouristPlace[] = [
         answer: "Both offer unique experiences! The elephant safari gets you very close to rhinos in elephant grass early in the morning, while the open jeep safari covers deeper distances across diverse forest habitats."
       }
     ],
-    seoTitle: "Kaziranga Tour Packages, Safari Booking & Taxi | NE Dhaniya Tours",
+    seoTitle: "Kaziranga Tour Packages, Safari Booking & Taxi | NE Dhanya Tour and Travels",
     seoDescription: "Book Kaziranga safari packages, Guwahati to Kaziranga cabs & comfortable hotel stays. See one-horned rhinos, tigers & wildlife with verified local experts.",
     status: "published",
     createdAt: "2025-01-01T00:00:00.000Z",
@@ -575,11 +575,11 @@ export const initialTouristPlaces: TouristPlace[] = [
     faqs: [
       {
         question: "Can I book outstation cabs from Guwahati Airport for Meghalaya or Kaziranga?",
-        answer: "Yes, NE Dhaniya Tours & Travels provides reliable outstation cabs (Sedan, Innova, Traveler) right outside Guwahati Airport with flight-tracking pick-up."
+        answer: "Yes, NE Dhanya Tour and Travels provides reliable outstation cabs (Sedan, Innova, Traveler) right outside Guwahati Airport with flight-tracking pick-up."
       }
     ],
-    seoTitle: "Guwahati Tour Packages & Outstation Taxi Service | NE Dhaniya Tours",
-    seoDescription: "Book Guwahati sightseeing tours, Kamakhya temple darshan, and airport taxi transfers across Northeast India with NE Dhaniya Tours & Travels.",
+    seoTitle: "Guwahati Tour Packages & Outstation Taxi Service | NE Dhanya Tour and Travels",
+    seoDescription: "Book Guwahati sightseeing tours, Kamakhya temple darshan, and airport taxi transfers across Northeast India with NE Dhanya Tour and Travels.",
     status: "published",
     createdAt: "2025-01-01T00:00:00.000Z",
     updatedAt: "2025-01-01T00:00:00.000Z"
@@ -614,10 +614,10 @@ export const initialTouristPlaces: TouristPlace[] = [
     faqs: [
       {
         question: "Can I visit Bumla Pass in my own vehicle?",
-        answer: "No, Bumla Pass requires local Arunachal registered 4-wheel drive vehicles (Tata Sumo / Bolero / Scorpio) with military clearance. NE Dhaniya Tours arranges complete Bumla vehicle logistics and permits."
+        answer: "No, Bumla Pass requires local Arunachal registered 4-wheel drive vehicles (Tata Sumo / Bolero / Scorpio) with military clearance. NE Dhanya Tour and Travels arranges complete Bumla vehicle logistics and permits."
       }
     ],
-    seoTitle: "Tawang Tour Packages & Guwahati to Tawang Taxi | NE Dhaniya Tours",
+    seoTitle: "Tawang Tour Packages & Guwahati to Tawang Taxi | NE Dhanya Tour and Travels",
     seoDescription: "Book memorable Tawang tour packages, Sela Pass & Bumla Pass excursions, and reliable Guwahati to Tawang car rentals with local drivers.",
     status: "published",
     createdAt: "2025-01-01T00:00:00.000Z",
@@ -656,8 +656,8 @@ export const initialTouristPlaces: TouristPlace[] = [
         answer: "It generally takes 4 to 5 hours depending on road and traffic conditions along NH 10."
       }
     ],
-    seoTitle: "Gangtok Tour Packages & Taxi Service | NE Dhaniya Tours",
-    seoDescription: "Plan your Gangtok trip with NE Dhaniya Tours. Affordable packages, NJP to Gangtok car rentals, Tsomgo Lake day tours & North Sikkim trips.",
+    seoTitle: "Gangtok Tour Packages & Taxi Service | NE Dhanya Tour and Travels",
+    seoDescription: "Plan your Gangtok trip with NE Dhanya Tour and Travels. Affordable packages, NJP to Gangtok car rentals, Tsomgo Lake day tours & North Sikkim trips.",
     status: "published",
     createdAt: "2025-01-01T00:00:00.000Z",
     updatedAt: "2025-01-01T00:00:00.000Z"
@@ -783,7 +783,7 @@ export const initialTourPackages: TourPackage[] = [
     travelMode: "both",
     shortDescription: "Discover Shillong, Cherrapunji, Dawki's crystal river, and Mawlynnong with customized private or sharing options.",
     description: "Embark on an enchanting 5-day journey through the Abode of Clouds. Marvel at the cascading Nohkalikai Falls, trek through ancient limestone caves, cruise on the crystal-clear waters of Dawki's Umngot River, and visit Asia's cleanest village Mawlynnong. Available as a private personalized tour or budget-friendly sharing group.",
-    heroImage: "https://images.unsplash.com/photo-1608889825103-eb5ed706fc64?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "/images/Meghalaya Scenic Escape.webp",
     highlights: [
       "Scenic drive past Umiam Lake to Shillong",
       "Nohkalikai Falls, Mawsmai Cave & Seven Sisters Falls in Cherrapunji",
@@ -851,7 +851,7 @@ export const initialTourPackages: TourPackage[] = [
         answer: "Absolutely! We can add Double Decker Root Bridge trekking, riverside camping, or extra days according to your preferences."
       }
     ],
-    seoTitle: "Meghalaya Tour Package (5 Days / 4 Nights) | NE Dhaniya Tours",
+    seoTitle: "Meghalaya Tour Package (5 Days / 4 Nights) | NE Dhanya Tour and Travels",
     seoDescription: "Book our 5-day Meghalaya Tour Package covering Shillong, Cherrapunji, Dawki & Mawlynnong. Choose Personal or Sharing options with custom WhatsApp quotes.",
     featured: true,
     status: "published",
@@ -869,7 +869,7 @@ export const initialTourPackages: TourPackage[] = [
     travelMode: "both",
     shortDescription: "An epic Himalayan expedition from Guwahati through Bomdila, Dirang, Sela Pass (13,700 ft) to Tawang and Bumla Pass.",
     description: "Ascend into the Land of the Dawn-Lit Mountains on a legendary 7-day road trip. Cross the snow-blanketed Sela Pass, pay homage at the 400-year-old Tawang Monastery, witness the thunderous Nuranang Falls, and venture to the Indo-China frontier at Bumla Pass and Madhuri Lake.",
-    heroImage: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "/images/Tawang Mountain Odyssey.avif",
     highlights: [
       "Scenic crossing of Sela Pass (13,700 ft) and Sela Lake",
       "Historical 400-year-old Tawang Monastery visit",
@@ -946,7 +946,7 @@ export const initialTourPackages: TourPackage[] = [
         answer: "Bumla Pass is generally open from April to November/December, subject to snow conditions and military clearance."
       }
     ],
-    seoTitle: "Tawang Tour Package (7 Days / 6 Nights) | NE Dhaniya Tours",
+    seoTitle: "Tawang Tour Package (7 Days / 6 Nights) | NE Dhanya Tour and Travels",
     seoDescription: "Book 7-day Tawang Tour Package from Guwahati. Sela Pass, Bumla Pass, Tawang Monastery & Dirang. Personal & Sharing tour options on WhatsApp.",
     featured: true,
     status: "published",
@@ -964,7 +964,7 @@ export const initialTourPackages: TourPackage[] = [
     travelMode: "both",
     shortDescription: "Experience the thrill of sighting one-horned rhinos, wild elephants, and tigers across Kaziranga National Park.",
     description: "An unforgettable wildlife immersion into UNESCO World Heritage Kaziranga National Park. Enjoy morning elephant safaris, open-top 4x4 jeep safaris in different ranges, visits to the Kaziranga Orchid Biodiversity Park, and serene walks in lush Assam tea gardens.",
-    heroImage: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "/images/Kaziranga Wildlife Safari & Tea Trail.webp",
     highlights: [
       "Thrilling morning Elephant Safari in Central/Western Range",
       "Jeep Safaris across Kohora & Bagori ranges",
@@ -1042,7 +1042,7 @@ export const initialTourPackages: TourPackage[] = [
     travelMode: "both",
     shortDescription: "Explore Gangtok, high-altitude Tsomgo Lake, Lachung, and the colorful Yumthang Valley of Flowers.",
     description: "Discover the jewel of the Eastern Himalayas. Experience the vibrant culture and mountain vistas of Gangtok, sacred glacial lakes, and journey deep into North Sikkim to Lachung and the Valley of Flowers at Yumthang, with optional excursion to Zero Point.",
-    heroImage: "https://images.unsplash.com/photo-1571536802807-30451e3955d8?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "/images/Sikkim Himalayan Explorer.jpg",
     highlights: [
       "Gangtok city sights & stroll along pedestrian MG Marg",
       "Excursion to holy Tsomgo Lake (12,400 ft) & Baba Mandir",
@@ -1108,7 +1108,7 @@ export const initialTourPackages: TourPackage[] = [
     faqs: [
       {
         question: "Are North Sikkim permits included in the package?",
-        answer: "Yes, NE Dhaniya Tours arranges all North Sikkim district permits and Tsomgo Lake permits seamlessly."
+        answer: "Yes, NE Dhanya Tour and Travels arranges all North Sikkim district permits and Tsomgo Lake permits seamlessly."
       }
     ],
     seoTitle: "Sikkim Tour Package (6 Days / 5 Nights) | Gangtok & North Sikkim",
@@ -1129,7 +1129,7 @@ export const initialTourPackages: TourPackage[] = [
     travelMode: "both",
     shortDescription: "Experience Thimphu, Punakha Dzong, and the legendary hike to Tiger's Nest Monastery (Paro Taktsang).",
     description: "A soul-stirring journey through the peaceful Himalayan kingdom of Bhutan. Marvel at centuries-old fortress monasteries (Dzongs), traverse Dochula Pass with its 108 stupas and mountain vistas, stroll through scenic Punakha valley, and complete the iconic pilgrimage hike to cliffside Tiger's Nest.",
-    heroImage: "https://images.unsplash.com/photo-1571536802807-30451e3955d8?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "/images/Bhutan Cultural & Himalayan Experience.jpg",
     highlights: [
       "Iconic hike to Paro Taktsang (Tiger's Nest Monastery)",
       "Majestic Punakha Dzong located at the confluence of Pho Chhu and Mo Chhu rivers",
@@ -1199,7 +1199,7 @@ export const initialTourPackages: TourPackage[] = [
         answer: "Yes, an original Voter Identity Card issued by the Election Commission of India OR an Indian Passport (minimum 6 months validity) is valid for Bhutan entry permits."
       }
     ],
-    seoTitle: "Bhutan Tour Package from India & Assam | NE Dhaniya Tours",
+    seoTitle: "Bhutan Tour Package from India & Assam | NE Dhanya Tour and Travels",
     seoDescription: "Book 6-day Bhutan Tour Package from Guwahati. Visit Thimphu, Punakha & Tiger's Nest Paro. Seamless entry permits and WhatsApp booking.",
     featured: true,
     status: "published",
@@ -1274,12 +1274,12 @@ When traveling across Meghalaya's winding hilly terrain, having reliable transpo
 
 ## Ready to Plan Your Meghalaya Holiday?
 
-NE Dhaniya Tours & Travels provides private vehicle rentals (Innova Crysta, Sedans, Tempo Travelers), personalized tour itineraries, and hotel reservations across Shillong, Cherrapunji, and Dawki.
+NE Dhanya Tour and Travels provides private vehicle rentals (Innova Crysta, Sedans, Tempo Travelers), personalized tour itineraries, and hotel reservations across Shillong, Cherrapunji, and Dawki.
     `,
     featuredImage: "https://images.unsplash.com/photo-1608889825103-eb5ed706fc64?auto=format&fit=crop&w=1000&q=80",
     category: "Meghalaya",
     tags: ["Meghalaya", "Shillong", "Cherrapunji", "Dawki", "Travel Tips"],
-    author: "NE Dhaniya Travel Desk",
+    author: "NE Dhanya Travel Desk",
     readingTime: "5 min read",
     publishedAt: "2025-01-10T10:00:00.000Z",
     updatedAt: "2025-01-10T10:00:00.000Z",
@@ -1330,7 +1330,7 @@ Attempting to drive from Guwahati to Tawang in a single day is dangerous due to 
 
 ## 2. Inner Line Permit (ILP) & Bumla Pass Permits
 
-- **Inner Line Permit (ILP):** Mandatory for all Indian citizens entering Arunachal Pradesh. You can apply online with your Aadhaar/Voter ID or have NE Dhaniya Tours arrange it on your behalf.
+- **Inner Line Permit (ILP):** Mandatory for all Indian citizens entering Arunachal Pradesh. You can apply online with your Aadhaar/Voter ID or have NE Dhanya Tour and Travels arrange it on your behalf.
 - **Bumla Pass & Madhuri Lake Permit:** Requires clearance from the Deputy Commissioner's office in Tawang and Army authorities. Local Arunachal-registered 4WD vehicles (Sumo/Bolero) are required for the Bumla sector.
 
 ---
@@ -1347,18 +1347,18 @@ The Trans-Arunachal highway sections are well-built by the Border Roads Organisa
 
 ## Plan Your Tawang Journey with Local Experts
 
-NE Dhaniya Tours & Travels manages the entire Guwahati to Tawang circuit with verified mountain drivers, ILP permits, Bumla Pass coordination, and handpicked hotels in Bomdila, Dirang, and Tawang.
+NE Dhanya Tour and Travels manages the entire Guwahati to Tawang circuit with verified mountain drivers, ILP permits, Bumla Pass coordination, and handpicked hotels in Bomdila, Dirang, and Tawang.
     `,
     featuredImage: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80",
     category: "Arunachal Pradesh",
     tags: ["Arunachal Pradesh", "Tawang", "Sela Pass", "Bumla Pass", "Road Trip"],
-    author: "NE Dhaniya Travel Desk",
+    author: "NE Dhanya Travel Desk",
     readingTime: "6 min read",
     publishedAt: "2025-01-15T10:00:00.000Z",
     updatedAt: "2025-01-15T10:00:00.000Z",
     status: "published",
     seoTitle: "Guwahati to Tawang Road Trip Guide | Route, Sela Pass, Permits",
-    seoDescription: "Complete Guwahati to Tawang road trip guide. Itinerary, Sela Pass altitude, Inner Line Permit (ILP), Bumla Pass rules, and car rental options with NE Dhaniya.",
+    seoDescription: "Complete Guwahati to Tawang road trip guide. Itinerary, Sela Pass altitude, Inner Line Permit (ILP), Bumla Pass rules, and car rental options with NE Dhanya.",
     faqs: [
       {
         question: "How cold does it get in Tawang?",
@@ -1410,17 +1410,17 @@ Kaziranga is officially open to visitors from **November 1 to April 30**. During
 - **From Guwahati:** Located 215 km away via NH 715 (approx 4.5 hours drive in a private cab).
 - **From Jorhat:** Located 97 km away (approx 2 hours drive).
 
-NE Dhaniya Tours & Travels provides direct pickup from Guwahati Airport / Railway Station with comfortable cabs, hotel bookings, and guaranteed safari permit coordination.
+NE Dhanya Tour and Travels provides direct pickup from Guwahati Airport / Railway Station with comfortable cabs, hotel bookings, and guaranteed safari permit coordination.
     `,
     featuredImage: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1000&q=80",
     category: "Assam",
     tags: ["Assam", "Kaziranga", "Wildlife Safari", "One-Horned Rhino"],
-    author: "NE Dhaniya Travel Desk",
+    author: "NE Dhanya Travel Desk",
     readingTime: "5 min read",
     publishedAt: "2025-01-20T10:00:00.000Z",
     updatedAt: "2025-01-20T10:00:00.000Z",
     status: "published",
-    seoTitle: "Kaziranga Safari Guide | Elephant & Jeep Safari Booking | NE Dhaniya",
+    seoTitle: "Kaziranga Safari Guide | Elephant & Jeep Safari Booking | NE Dhanya",
     seoDescription: "Complete guide to Kaziranga National Park safari booking. Learn about Kohora and Bagori ranges, timings, Guwahati transfers & Assam travel tips.",
     faqs: [
       {

@@ -64,7 +64,7 @@ function AdminLayoutContent({ children }: { children: React.ReactNode }) {
           <div className="relative w-36 h-10">
             <Image 
               src="/images/logo.png" 
-              alt="NE Dhaniya" 
+              alt="NE Dhanya" 
               fill 
               className="object-contain object-left" 
             />
@@ -92,7 +92,7 @@ function AdminLayoutContent({ children }: { children: React.ReactNode }) {
             <div className="relative w-40 h-12">
               <Image 
                 src="/images/logo.png" 
-                alt="NE Dhaniya Tours & Travels" 
+                alt="NE Dhanya Tour and Travels" 
                 fill 
                 className="object-contain object-left" 
               />
@@ -106,7 +106,7 @@ function AdminLayoutContent({ children }: { children: React.ReactNode }) {
               <span>Admin Console</span>
             </div>
             <div className="font-semibold text-white mt-1 truncate">
-              {user?.email || "admin@nedhaniyatours.com"}
+              {user?.email || "admin@nedhanyatours.com"}
             </div>
           </div>
 

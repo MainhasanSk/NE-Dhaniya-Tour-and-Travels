@@ -1,4 +1,4 @@
-# NE DHANIYA TOURS & TRAVELS
+# NE Dhanya Tour and Travels
 
 ## Master Project Specification & AI Development Prompt
 
@@ -13,7 +13,7 @@ Specification\
 # 1. PROJECT OBJECTIVE
 
 Build a premium, modern, mobile-first, SEO-first travel website and
-content management system for **NE Dhaniya Tours & Travels**, a
+content management system for **NE Dhanya Tour and Travels**, a
 Northeast India travel agency providing:
 
 -   Tour Packages
@@ -46,7 +46,7 @@ tourist-place, package and blog pages.
 
 ## Business Name
 
-**NE Dhaniya Tours & Travels**
+**NE Dhanya Tour and Travels**
 
 ## Positioning
 
@@ -114,7 +114,7 @@ centrally in website settings/environment configuration.
 
 # 3. SERVICE AREAS
 
-NE Dhaniya Tours & Travels provides tourist services in:
+NE Dhanya Tour and Travels provides tourist services in:
 
 1.  Assam
 2.  Meghalaya
@@ -496,7 +496,7 @@ Order:
 6.  Personal vs Sharing
 7.  Vehicle Fleet
 8.  Hotel Booking
-9.  Why Choose NE Dhaniya
+9.  Why Choose NE Dhanya
 10. Travel Guide / Blog
 11. FAQ
 12. Final WhatsApp CTA
@@ -1273,12 +1273,12 @@ Generate contextual pre-filled messages.
 
 Package:
 
-"Hello NE Dhaniya Tours & Travels, I am interested in the \[Package
+"Hello NE Dhanya Tour and Travels, I am interested in the \[Package
 Name\]. Please share the details."
 
 Destination:
 
-"Hello NE Dhaniya Tours & Travels, I am planning a trip to
+"Hello NE Dhanya Tour and Travels, I am planning a trip to
 \[Destination\]. Please help me plan my trip."
 
 Vehicle:
@@ -1327,10 +1327,10 @@ Example:
 
 ``` text
 Title:
-Meghalaya Tour Packages, Taxi & Travel Services | NE Dhaniya
+Meghalaya Tour Packages, Taxi & Travel Services | NE Dhanya
 
 Description:
-Explore Meghalaya with NE Dhaniya Tours & Travels. Discover Shillong, Cherrapunji, Dawki, Mawlynnong and more with personal and sharing travel options.
+Explore Meghalaya with NE Dhanya Tour and Travels. Discover Shillong, Cherrapunji, Dawki, Mawlynnong and more with personal and sharing travel options.
 ```
 
 Allow admin to override metadata.
@@ -1636,7 +1636,7 @@ Mobile:
 
 Include:
 
-NE Dhaniya Tours & Travels
+NE Dhanya Tour and Travels
 
 **Explore Northeast India & Bhutan with confidence.**
 
@@ -1676,7 +1676,7 @@ URL:
 
 Explain:
 
--   Who NE Dhaniya Tours & Travels is
+-   Who NE Dhanya Tour and Travels is
 -   Northeast India focus
 -   Services
 -   Personal and sharing tours
@@ -2077,7 +2077,7 @@ Image optimization:
 
 Example filename:
 
-`meghalaya-shillong-tour-ne-dhaniya.jpg`
+`meghalaya-shillong-tour-ne-dhanya.jpg`
 
 Avoid:
 
@@ -2089,32 +2089,32 @@ Avoid:
 
 Homepage:
 
-**NE Dhaniya Tours & Travels \| Northeast India Tour Packages & Car
+**NE Dhanya Tour and Travels \| Northeast India Tour Packages & Car
 Rental**
 
 Assam:
 
-**Assam Tour Packages, Car Rental & Travel Services \| NE Dhaniya**
+**Assam Tour Packages, Car Rental & Travel Services \| NE Dhanya**
 
 Meghalaya:
 
-**Meghalaya Tour Packages, Taxi & Car Rental \| NE Dhaniya**
+**Meghalaya Tour Packages, Taxi & Car Rental \| NE Dhanya**
 
 Arunachal Pradesh:
 
-**Arunachal Pradesh Tour Packages & Taxi Service \| NE Dhaniya**
+**Arunachal Pradesh Tour Packages & Taxi Service \| NE Dhanya**
 
 Tawang:
 
-**Tawang Tour Packages & Taxi Service \| NE Dhaniya Tours**
+**Tawang Tour Packages & Taxi Service \| NE Dhanya Tour and Travels**
 
 Sikkim:
 
-**Sikkim Tour Packages & Car Rental \| NE Dhaniya Tours**
+**Sikkim Tour Packages & Car Rental \| NE Dhanya Tour and Travels**
 
 Bhutan:
 
-**Bhutan Tour Packages from Northeast India \| NE Dhaniya**
+**Bhutan Tour Packages from Northeast India \| NE Dhanya**
 
 Generate unique metadata for every page.
 
@@ -2446,7 +2446,7 @@ PLATFORM + WHATSAPP LEAD GENERATION SYSTEM**
 The website should be visually premium, technically clean, fast,
 accessible, secure, mobile-first and designed around real search intent.
 
-The system should allow NE Dhaniya Tours & Travels to continuously add:
+The system should allow NE Dhanya Tour and Travels to continuously add:
 
 **Destinations → Tourist Places → Packages → Vehicles → Hotels → Blogs**
 

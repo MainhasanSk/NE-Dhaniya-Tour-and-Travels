@@ -39,13 +39,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!place) return {};
 
   return {
-    title: place.seoTitle || `${place.name} Tour & Travel Guide | Taxi & Stays | NE Dhaniya`,
+    title: place.seoTitle || `${place.name} Tour & Travel Guide | Taxi & Stays | NE Dhanya`,
     description: place.seoDescription || place.shortDescription,
     alternates: {
       canonical: `/destinations/${place.destinationSlug}/${place.slug}`,
     },
     openGraph: {
-      title: place.seoTitle || `${place.name} Travel Guide | NE Dhaniya Tours`,
+      title: place.seoTitle || `${place.name} Travel Guide | NE Dhanya Tour and Travels`,
       description: place.seoDescription || place.shortDescription,
       images: [{ url: place.heroImage, alt: `${place.name} Sightseeing` }],
     },
@@ -66,7 +66,7 @@ export default async function TouristPlaceDetailPage({ params }: Props) {
 
   const placeWhatsAppUrl = createWhatsAppLink(
     settings.whatsappNumber,
-    `Hello NE Dhaniya Tours & Travels, I am planning to visit ${place.name}, ${dest.name}. Please share travel packages, taxi fares, and hotel recommendations.`
+    `Hello NE Dhanya Tour and Travels, I am planning to visit ${place.name}, ${dest.name}. Please share travel packages, taxi fares, and hotel recommendations.`
   );
 
   return (
@@ -185,7 +185,7 @@ export default async function TouristPlaceDetailPage({ params }: Props) {
               {place.name} Taxi Service & Private Car Rental
             </h2>
             <p className="text-xs sm:text-sm text-slate-300 mt-3 leading-relaxed">
-              Need a cab from Guwahati to {place.name}, or full local sightseeing? NE Dhaniya Tours & Travels operates verified Innova Crystas, Sedans, and Force Travelers with seasoned mountain drivers.
+              Need a cab from Guwahati to {place.name}, or full local sightseeing? NE Dhanya Tour and Travels operates verified Innova Crystas, Sedans, and Force Travelers with seasoned mountain drivers.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3">
@@ -290,7 +290,7 @@ export default async function TouristPlaceDetailPage({ params }: Props) {
             Ready to Explore {place.name}?
           </h2>
           <p className="text-xs sm:text-sm text-slate-200 mt-2 max-w-lg mx-auto">
-            Contact NE Dhaniya Tours & Travels on WhatsApp for customized itineraries, direct cab bookings, and friendly advice.
+            Contact NE Dhanya Tour and Travels on WhatsApp for customized itineraries, direct cab bookings, and friendly advice.
           </p>
           <div className="mt-6">
             <a

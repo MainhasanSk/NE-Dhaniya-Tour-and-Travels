@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!blog) return {};
 
   return {
-    title: blog.seoTitle || `${blog.title} | NE Dhaniya Tours`,
+    title: blog.seoTitle || `${blog.title} | NE Dhanya Tour and Travels`,
     description: blog.seoDescription || blog.excerpt,
     alternates: {
       canonical: `/blog/${blog.slug}`,
@@ -70,7 +70,7 @@ export default async function BlogPostPage({ params }: Props) {
 
   const articleWhatsAppUrl = createWhatsAppLink(
     settings.whatsappNumber,
-    `Hello NE Dhaniya Tours & Travels, I read your article "${blog.title}" and would like assistance planning my trip.`
+    `Hello NE Dhanya Tour and Travels, I read your article "${blog.title}" and would like assistance planning my trip.`
   );
 
   return (
@@ -213,7 +213,7 @@ export default async function BlogPostPage({ params }: Props) {
             Planning Your Northeast India Trip?
           </h2>
           <p className="text-xs sm:text-base text-slate-200 max-w-lg mx-auto leading-relaxed">
-            Talk directly with NE Dhaniya Tours & Travels on WhatsApp for customized itineraries, vehicle bookings, and honest local advice.
+            Talk directly with NE Dhanya Tour and Travels on WhatsApp for customized itineraries, vehicle bookings, and honest local advice.
           </p>
           <div className="pt-2 flex flex-col sm:flex-row items-center justify-center gap-3">
             <a

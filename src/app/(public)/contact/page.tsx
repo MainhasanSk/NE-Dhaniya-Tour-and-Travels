@@ -35,7 +35,7 @@ export default function ContactPage() {
 
   const whatsappUrl = createWhatsAppLink(
     whatsappNumber,
-    "Hello NE Dhaniya Tours & Travels, I would like to contact your team regarding a trip to Northeast India."
+    "Hello NE Dhanya Tour and Travels, I would like to contact your team regarding a trip to Northeast India."
   );
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -61,7 +61,7 @@ export default function ContactPage() {
       setSubmitted(true);
 
       const waMsg = [
-        `Hello NE Dhaniya Tours & Travels, I have submitted an enquiry:`,
+        `Hello NE Dhanya Tour and Travels, I have submitted an enquiry:`,
         `👤 Name: ${name}`,
         `📱 Contact: ${phone}`,
         `📍 Destination: ${destination}`,
@@ -100,7 +100,7 @@ export default function ContactPage() {
             Reach Out Anytime
           </span>
           <h1 className="text-3xl sm:text-5xl font-extrabold text-slate-900 mt-3 font-heading">
-            Contact NE Dhaniya Tours & Travels
+            Contact NE Dhanya Tour and Travels
           </h1>
           <p className="text-sm sm:text-base text-slate-600 mt-3 leading-relaxed">
             Planning a trip, need a vehicle quote, or have questions about permits? Our local travel team in Guwahati is always ready to assist you.

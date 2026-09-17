@@ -77,7 +77,7 @@ const popularDestinations = [
 
 const hotelFaqs = [
   {
-    question: "Why book hotels through NE Dhaniya Tours instead of generic booking portals?",
+    question: "Why book hotels through NE Dhanya Tour and Travels instead of generic booking portals?",
     answer: "Many remote locations in Northeast India (like Cherrapunji, Dawki, North Sikkim, and Tawang) have limited hotel inventory where online photos are often outdated. Our team personally inspects each property to verify water heating, hygiene, road accessibility, and food quality."
   },
   {

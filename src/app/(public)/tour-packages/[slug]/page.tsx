@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!pkg) return {};
 
   return {
-    title: pkg.seoTitle || `${pkg.name} (${pkg.duration}) | NE Dhaniya Tours`,
+    title: pkg.seoTitle || `${pkg.name} (${pkg.duration}) | NE Dhanya Tour and Travels`,
     description: pkg.seoDescription || pkg.shortDescription,
     alternates: {
       canonical: `/tour-packages/${pkg.slug}`,

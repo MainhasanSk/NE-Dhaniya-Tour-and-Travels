@@ -24,7 +24,7 @@ export const viewport: Viewport = {
 
 export async function generateMetadata(): Promise<Metadata> {
   const settings = await getSiteSettings();
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://nedhaniyatours.com";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://nedhanyatours.com";
 
   return {
     metadataBase: new URL(siteUrl),
@@ -42,7 +42,7 @@ export async function generateMetadata(): Promise<Metadata> {
       "Assam travel agency",
       "Sikkim tour packages",
       "Bhutan tours from Guwahati",
-      "NE Dhaniya Tours & Travels",
+      "NE Dhanya Tour and Travels",
       "Northeast car rental",
       "Personal vs sharing tour Northeast"
     ],

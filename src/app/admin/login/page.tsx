@@ -7,7 +7,7 @@ import { ShieldCheck, Lock, Mail, ArrowRight } from "lucide-react";
 import { useAuth } from "@/lib/firebase/authContext";
 
 export default function AdminLoginPage() {
-  const [email, setEmail] = useState("admin@nedhaniyatours.com");
+  const [email, setEmail] = useState("admin@nedhanyatours.com");
   const [password, setPassword] = useState("admin123");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -38,7 +38,7 @@ export default function AdminLoginPage() {
           <div className="relative w-48 h-14 mx-auto mb-4">
             <Image 
               src="/images/logo.png" 
-              alt="NE Dhaniya Tours & Travels" 
+              alt="NE Dhanya Tour and Travels" 
               fill 
               className="object-contain" 
             />

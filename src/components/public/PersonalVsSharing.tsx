@@ -19,12 +19,12 @@ interface PersonalVsSharingProps {
 export const PersonalVsSharing: React.FC<PersonalVsSharingProps> = ({ whatsappNumber }) => {
   const personalWhatsAppUrl = createWhatsAppLink(
     whatsappNumber,
-    "Hello NE Dhaniya Tours & Travels, I am interested in planning a Personal / Private Vehicle Tour. Please share options."
+    "Hello NE Dhanya Tour and Travels, I am interested in planning a Personal / Private Vehicle Tour. Please share options."
   );
 
   const sharingWhatsAppUrl = createWhatsAppLink(
     whatsappNumber,
-    "Hello NE Dhaniya Tours & Travels, I am interested in joining a Budget Sharing Tour in Northeast India. Please share upcoming dates and seats."
+    "Hello NE Dhanya Tour and Travels, I am interested in joining a Budget Sharing Tour in Northeast India. Please share upcoming dates and seats."
   );
 
   return (
@@ -44,7 +44,7 @@ export const PersonalVsSharing: React.FC<PersonalVsSharingProps> = ({ whatsappNu
             Personal vs Sharing Travel
           </h2>
           <p className="text-sm sm:text-base text-slate-300 mt-3 leading-relaxed">
-            Whether you prioritize complete privacy and a customized schedule or a cost-effective sharing experience to meet fellow travelers, NE Dhaniya Tours has the perfect option for you.
+            Whether you prioritize complete privacy and a customized schedule or a cost-effective sharing experience to meet fellow travelers, NE Dhanya Tour and Travels has the perfect option for you.
           </p>
         </div>
 

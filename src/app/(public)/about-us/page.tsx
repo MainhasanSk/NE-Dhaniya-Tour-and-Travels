@@ -18,8 +18,8 @@ import { createWhatsAppLink, getGeneralEnquiryMessage } from "@/lib/whatsapp";
 import { Breadcrumbs } from "@/components/public/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "About NE Dhaniya Tours & Travels | Northeast India Travel Specialists",
-  description: "Learn about NE Dhaniya Tours & Travels, your trusted travel partner for Assam, Meghalaya, Arunachal Pradesh, Sikkim & Bhutan.",
+  title: "About NE Dhanya Tour and Travels | Northeast India Travel Specialists",
+  description: "Learn about NE Dhanya Tour and Travels, your trusted travel partner for Assam, Meghalaya, Arunachal Pradesh, Sikkim & Bhutan.",
   alternates: {
     canonical: "/about-us",
   },
@@ -45,7 +45,7 @@ export default async function AboutUsPage() {
             Our Story & Heritage
           </span>
           <h1 className="text-3xl sm:text-5xl font-extrabold text-slate-900 mt-3 font-heading">
-            About NE Dhaniya Tours & Travels
+            About NE Dhanya Tour and Travels
           </h1>
           <p className="text-sm sm:text-base text-slate-600 mt-3 leading-relaxed">
             Your Trusted Travel Partner for Northeast India & Bhutan
@@ -60,7 +60,7 @@ export default async function AboutUsPage() {
                 Authentic Northeast Travel Grounded in Trust
               </h2>
               <p>
-                <strong>NE Dhaniya Tours & Travels</strong> was founded with a singular purpose: to make the majestic landscapes, rich tribal cultures, and misty mountains of Northeast India and Bhutan seamlessly accessible to travelers from all over India and the world.
+                <strong>NE Dhanya Tour and Travels</strong> was founded with a singular purpose: to make the majestic landscapes, rich tribal cultures, and misty mountains of Northeast India and Bhutan seamlessly accessible to travelers from all over India and the world.
               </p>
               <p>
                 Headquartered in Guwahati, Assam—the natural gateway to the Seven Sister states—we understand that traveling in Northeast India is fundamentally different from traveling in the plains. Mountain roads, fluctuating weather, seasonal permits, and remote valleys require genuine local expertise and reliable on-ground vehicle support.
@@ -73,7 +73,7 @@ export default async function AboutUsPage() {
             <div className="relative h-80 w-full rounded-2xl overflow-hidden shadow-md">
               <Image
                 src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1000&q=80"
-                alt="Northeast India scenic landscapes - NE Dhaniya Tours"
+                alt="Northeast India scenic landscapes - NE Dhanya Tour and Travels"
                 fill
                 className="object-cover"
               />

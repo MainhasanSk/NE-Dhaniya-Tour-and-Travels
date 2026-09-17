@@ -66,7 +66,7 @@ export const Header: React.FC<HeaderProps> = ({ settings }) => {
           <div className="relative w-40 sm:w-48 h-12 sm:h-14 transition-transform group-hover:scale-[1.02]">
             <Image 
               src="/images/logo.png" 
-              alt="NE Dhaniya Tours & Travels Logo" 
+              alt="NE Dhanya Tour and Travels Logo" 
               fill
               className="object-contain object-left"
               priority

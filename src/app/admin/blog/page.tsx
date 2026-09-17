@@ -34,7 +34,7 @@ export default function AdminBlogPage() {
     setTitle(val);
     const generatedSlug = val.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)+/g, '');
     setSlug(generatedSlug);
-    setSeoTitle(`${val} | NE Dhaniya Tours`);
+    setSeoTitle(`${val} | NE Dhanya Tour and Travels`);
   };
 
   const handleSaveBlog = async (e: React.FormEvent) => {
@@ -53,7 +53,7 @@ export default function AdminBlogPage() {
       featuredImage,
       category,
       tags: [category, "Travel Guide"],
-      author: "NE Dhaniya Travel Desk",
+      author: "NE Dhanya Travel Desk",
       readingTime: "5 min read",
       publishedAt: new Date().toISOString(),
       updatedAt: new Date().toISOString(),

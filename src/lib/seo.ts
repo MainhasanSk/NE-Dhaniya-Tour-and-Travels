@@ -1,6 +1,6 @@
 import { Destination, TouristPlace, TourPackage, BlogPost, FAQItem, SiteSettings } from '@/types';
 
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://nedhaniyatours.com';
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://nedhanyatours.com';
 
 export function getTravelAgencySchema(settings: SiteSettings) {
   return {
@@ -114,7 +114,7 @@ export function getArticleSchema(blog: BlogPost) {
     },
     "publisher": {
       "@type": "Organization",
-      "name": "NE Dhaniya Tours & Travels",
+      "name": "NE Dhanya Tour and Travels",
       "logo": {
         "@type": "ImageObject",
         "url": `${SITE_URL}/images/logo.png`

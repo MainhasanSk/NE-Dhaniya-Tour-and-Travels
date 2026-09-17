@@ -39,7 +39,7 @@ const testimonials: Testimonial[] = [
     tourName: "Meghalaya Scenic Escape (6D/5N)",
     travelMode: "Personal Private Tour",
     highlight: "Exceptional Innova Crysta & local driver Bimal Da!",
-    review: "We booked our family Meghalaya tour with NE Dhaniya Tours. From our airport pickup at Guwahati to Dawki boating and Cherrapunji waterfalls, the Innova Crysta was spotless and our driver was incredibly polite, punctual, and knowledgeable about mountain roads. Everything was coordinated directly on WhatsApp with zero stress!",
+    review: "We booked our family Meghalaya tour with NE Dhanya Tour and Travels. From our airport pickup at Guwahati to Dawki boating and Cherrapunji waterfalls, the Innova Crysta was spotless and our driver was incredibly polite, punctual, and knowledgeable about mountain roads. Everything was coordinated directly on WhatsApp with zero stress!",
     date: "February 2025"
   },
   {
@@ -51,7 +51,7 @@ const testimonials: Testimonial[] = [
     tourName: "Guwahati to Tawang Himalayan Circuit (8D/7N)",
     travelMode: "Personal Private Tour",
     highlight: "Flawless Sela Pass & Bumla permits support",
-    review: "Driving to Tawang can be intimidating, but NE Dhaniya Tours made it seamless. They arranged all our Arunachal ILP and Bumla Pass army permits in advance. Our vehicle climbed snowy Sela Pass without a single hitch. Honest pricing, warm hospitality, and 24/7 WhatsApp assistance throughout our road trip!",
+    review: "Driving to Tawang can be intimidating, but NE Dhanya Tour and Travels made it seamless. They arranged all our Arunachal ILP and Bumla Pass army permits in advance. Our vehicle climbed snowy Sela Pass without a single hitch. Honest pricing, warm hospitality, and 24/7 WhatsApp assistance throughout our road trip!",
     date: "January 2025"
   },
   {
@@ -75,7 +75,7 @@ const testimonials: Testimonial[] = [
     tourName: "Bhutan Cultural Expedition via Assam (7D/6N)",
     travelMode: "Personal Private Tour",
     highlight: "Hassle-free Bhutan cross-border travel & stays",
-    review: "We wanted to explore Bhutan entering directly via Samdrup Jongkhar from Guwahati. NE Dhaniya Tours handled our vehicle entry permits, hotel accommodations, and seasoned hill driver. Climbing to Tiger's Nest in Paro and visiting Punakha Dzong was utterly unforgettable. Highly recommended for couples and seniors!",
+    review: "We wanted to explore Bhutan entering directly via Samdrup Jongkhar from Guwahati. NE Dhanya Tour and Travels handled our vehicle entry permits, hotel accommodations, and seasoned hill driver. Climbing to Tiger's Nest in Paro and visiting Punakha Dzong was utterly unforgettable. Highly recommended for couples and seniors!",
     date: "March 2025"
   },
   {
@@ -87,7 +87,7 @@ const testimonials: Testimonial[] = [
     tourName: "Guwahati Airport to Shillong & Cherrapunji Outstation",
     travelMode: "Outstation Car Rental",
     highlight: "Punctual airport pickup & pristine Dzire sedan",
-    review: "Booked a sedan for 4 days covering Guwahati Airport, Maa Kamakhya Temple, Umiam Lake, and Cherrapunji. The driver arrived 15 minutes before landing at Guwahati with a welcome sign. Zero hidden charges, sanitized car, and very reasonable outstation taxi rates. Will always book with NE Dhaniya Tours!",
+    review: "Booked a sedan for 4 days covering Guwahati Airport, Maa Kamakhya Temple, Umiam Lake, and Cherrapunji. The driver arrived 15 minutes before landing at Guwahati with a welcome sign. Zero hidden charges, sanitized car, and very reasonable outstation taxi rates. Will always book with NE Dhanya Tour and Travels!",
     date: "November 2024"
   }
 ];
@@ -129,7 +129,7 @@ export const TestimonialSlider: React.FC<TestimonialSliderProps> = ({ whatsappNu
 
   const planWhatsAppUrl = createWhatsAppLink(
     whatsappNumber,
-    "Hello NE Dhaniya Tours & Travels, I read your traveler reviews and would like to plan a trip with you. Please share details."
+    "Hello NE Dhanya Tour and Travels, I read your traveler reviews and would like to plan a trip with you. Please share details."
   );
 
   return (

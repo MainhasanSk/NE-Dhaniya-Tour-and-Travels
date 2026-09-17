@@ -8,7 +8,7 @@ import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 
 export const metadata: Metadata = {
   title: "Northeast India & Bhutan Destinations | Tour Packages & Travel Guides",
-  description: "Explore all 8 regions: Assam, Meghalaya, Arunachal Pradesh, Nagaland, Sikkim, Mizoram, Tripura, and Bhutan with NE Dhaniya Tours & Travels.",
+  description: "Explore all 8 regions: Assam, Meghalaya, Arunachal Pradesh, Nagaland, Sikkim, Mizoram, Tripura, and Bhutan with NE Dhanya Tour and Travels.",
   alternates: {
     canonical: "/destinations",
   },

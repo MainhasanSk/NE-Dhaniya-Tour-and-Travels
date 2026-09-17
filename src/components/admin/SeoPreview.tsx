@@ -15,7 +15,7 @@ export const SeoPreview: React.FC<SeoPreviewProps> = ({
   description,
   basePath = "blog"
 }) => {
-  const displayUrl = `https://nedhaniyatours.com/${basePath}/${slug || "sample-slug"}`;
+  const displayUrl = `https://nedhanyatours.com/${basePath}/${slug || "sample-slug"}`;
 
   return (
     <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-2">

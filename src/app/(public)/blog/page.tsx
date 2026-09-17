@@ -7,7 +7,7 @@ import { getAllBlogPosts, getAllBlogCategories, getSiteSettings } from "@/lib/fi
 import { Breadcrumbs } from "@/components/public/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Northeast India Travel Guide & Blog | NE Dhaniya Tours & Travels",
+  title: "Northeast India Travel Guide & Blog | NE Dhanya Tour and Travels",
   description: "Comprehensive travel guides, route maps, permit rules & seasonal tips for Meghalaya, Assam, Tawang, Sikkim & Bhutan by local Northeast experts.",
   alternates: {
     canonical: "/blog",

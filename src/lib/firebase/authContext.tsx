@@ -32,7 +32,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   useEffect(() => {
     // Check local session storage for mock admin mode
-    const stored = typeof window !== "undefined" ? localStorage.getItem("ne_dhaniya_admin_session") : null;
+    const stored = typeof window !== "undefined" ? localStorage.getItem("ne_dhanya_admin_session") : null;
     if (stored) {
       try {
         setUser(JSON.parse(stored));
@@ -45,13 +45,13 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       const unsub = onAuthStateChanged(auth, (fbUser) => {
         if (fbUser) {
           const adminObj = {
-            email: fbUser.email || "admin@nedhaniyatours.com",
+            email: fbUser.email || "admin@nedhanyatours.com",
             displayName: fbUser.displayName || "Admin User",
             role: "super-admin" as AdminRole,
           };
           setUser(adminObj);
           if (typeof window !== "undefined") {
-            localStorage.setItem("ne_dhaniya_admin_session", JSON.stringify(adminObj));
+            localStorage.setItem("ne_dhanya_admin_session", JSON.stringify(adminObj));
           }
         }
         setLoading(false);
@@ -73,7 +73,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
           role: "super-admin" as AdminRole,
         };
         setUser(adminObj);
-        localStorage.setItem("ne_dhaniya_admin_session", JSON.stringify(adminObj));
+        localStorage.setItem("ne_dhanya_admin_session", JSON.stringify(adminObj));
         return { success: true };
       } catch (err: any) {
         return { success: false, error: err.message || "Failed to sign in" };
@@ -89,7 +89,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       };
       setUser(adminObj);
       if (typeof window !== "undefined") {
-        localStorage.setItem("ne_dhaniya_admin_session", JSON.stringify(adminObj));
+        localStorage.setItem("ne_dhanya_admin_session", JSON.stringify(adminObj));
       }
       return { success: true };
     }
@@ -107,7 +107,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     }
     setUser(null);
     if (typeof window !== "undefined") {
-      localStorage.removeItem("ne_dhaniya_admin_session");
+      localStorage.removeItem("ne_dhanya_admin_session");
     }
   };
 

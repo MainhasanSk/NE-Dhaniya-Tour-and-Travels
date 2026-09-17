@@ -69,7 +69,7 @@ export default function AdminEnquiriesPage() {
           {filtered.map((enq) => {
             const waUrl = createWhatsAppLink(
               enq.phone,
-              `Hello ${enq.name}, thank you for contacting NE Dhaniya Tours & Travels! I am your travel coordinator regarding your enquiry for ${enq.destination}.`
+              `Hello ${enq.name}, thank you for contacting NE Dhanya Tour and Travels! I am your travel coordinator regarding your enquiry for ${enq.destination}.`
             );
 
             return (

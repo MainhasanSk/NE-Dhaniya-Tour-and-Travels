@@ -43,12 +43,12 @@ export default async function HomePage() {
 
   const heroWhatsAppUrl = createWhatsAppLink(
     settings.whatsappNumber,
-    "Hello NE Dhaniya Tours & Travels, I want to plan my trip to Northeast India & Bhutan. Please assist me."
+    "Hello NE Dhanya Tour and Travels, I want to plan my trip to Northeast India & Bhutan. Please assist me."
   );
 
   const homeFaqs = [
     {
-      question: "Why choose NE Dhaniya Tours & Travels for Northeast India trips?",
+      question: "Why choose NE Dhanya Tour and Travels for Northeast India trips?",
       answer: "We are local Northeast travel specialists with deep on-ground knowledge across Assam, Meghalaya, Arunachal Pradesh, Sikkim, Nagaland, and Bhutan. We provide well-maintained private vehicles, verified drivers with mountain driving expertise, customized itineraries, hotel bookings, and 24/7 support on WhatsApp."
     },
     {
@@ -56,7 +56,7 @@ export default async function HomePage() {
       answer: "Personal tours provide a dedicated private vehicle exclusively for your group, giving you total freedom over halts, photography, and departure timings (ideal for families and couples). Sharing tours are budget-friendly options where solo travelers or students book individual seats in a shared vehicle along a fixed popular route."
     },
     {
-      question: "How do I book a tour package or vehicle with NE Dhaniya?",
+      question: "How do I book a tour package or vehicle with NE Dhanya?",
       answer: "Booking is simple and fast! Simply select your preferred package, destination, or vehicle on our website and click 'Plan My Trip on WhatsApp'. Our travel coordinator will share an exact itinerary, vehicle details, and quotation directly in chat."
     },
     {
@@ -259,16 +259,16 @@ export default async function HomePage() {
       {/* 6. PERSONAL VS SHARING COMPARISON */}
       <PersonalVsSharing whatsappNumber={settings.whatsappNumber} />
 
-      {/* 7. WHY CHOOSE NE DHANIYA (Section 58) */}
+      {/* 7. WHY CHOOSE NE DHANYA (Section 58) */}
       <section className="py-20 bg-white border-t border-slate-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="text-xs font-bold uppercase tracking-wider text-emerald-700 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-100">
-              The NE Dhaniya Promise
+              The NE Dhanya Promise
             </span>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3 font-heading">
-              Why Choose NE Dhaniya Tours & Travels
+              Why Choose NE Dhanya Tour and Travels
             </h2>
             <p className="text-sm sm:text-base text-slate-600 mt-3 leading-relaxed">
               We focus 100% on Northeast India and Bhutan, ensuring you get authentic local care, honest advice, and comfortable mountain travel.

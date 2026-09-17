@@ -19,7 +19,7 @@ import { createWhatsAppLink, getVehicleEnquiryMessage } from "@/lib/whatsapp";
 import { FAQAccordion } from "@/components/public/FAQAccordion";
 
 export const metadata: Metadata = {
-  title: "Car Rental in Northeast India | Taxi Service & Outstation Cabs | NE Dhaniya",
+  title: "Car Rental in Northeast India | Taxi Service & Outstation Cabs | NE Dhanya",
   description: "Book reliable car rentals in Northeast India. Innova Crysta, Force Urbania, Tempo Traveler & Sedans for Meghalaya, Assam, Tawang, Sikkim & Bhutan with local mountain drivers.",
   alternates: {
     canonical: "/car-rental",
@@ -32,7 +32,7 @@ export default async function CarRentalPage() {
 
   const generalCabWhatsApp = createWhatsAppLink(
     settings.whatsappNumber,
-    "Hello NE Dhaniya Tours & Travels, I want to enquire about car rental / taxi service in Northeast India. Please share rates."
+    "Hello NE Dhanya Tour and Travels, I want to enquire about car rental / taxi service in Northeast India. Please share rates."
   );
 
   const carRentalFaqs = [

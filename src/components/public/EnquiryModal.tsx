@@ -61,7 +61,7 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({
 
       // 2. Format WhatsApp deep link
       const waMsg = [
-        `Hello NE Dhaniya Tours & Travels, I have submitted an enquiry:`,
+        `Hello NE Dhanya Tour and Travels, I have submitted an enquiry:`,
         `👤 Name: ${name}`,
         `📱 Contact: ${phone}`,
         `📍 Destination: ${destination}`,

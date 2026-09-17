@@ -5,7 +5,7 @@ import { Breadcrumbs } from "@/components/public/Breadcrumbs";
 import { HotelBookingClient } from "@/components/public/HotelBookingClient";
 
 export const metadata: Metadata = {
-  title: "Hotel Booking in Northeast India & Bhutan | Verified Stays & Resorts | NE Dhaniya",
+  title: "Hotel Booking in Northeast India & Bhutan | Verified Stays & Resorts | NE Dhanya",
   description: "Complete hotel booking assistance across Shillong, Cherrapunji, Dawki, Kaziranga, Tawang, Gangtok & Bhutan. Verified clean stays, resorts, and authentic homestays.",
   alternates: {
     canonical: "/hotel-booking",

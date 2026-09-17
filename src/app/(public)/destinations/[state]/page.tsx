@@ -39,13 +39,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!dest) return {};
 
   return {
-    title: dest.seoTitle || `${dest.name} Tour Packages, Taxi & Travel Services | NE Dhaniya`,
+    title: dest.seoTitle || `${dest.name} Tour Packages, Taxi & Travel Services | NE Dhanya`,
     description: dest.seoDescription || dest.shortDescription,
     alternates: {
       canonical: `/destinations/${dest.slug}`,
     },
     openGraph: {
-      title: dest.seoTitle || `${dest.name} Tours | NE Dhaniya Tours & Travels`,
+      title: dest.seoTitle || `${dest.name} Tours | NE Dhanya Tour and Travels`,
       description: dest.seoDescription || dest.shortDescription,
       images: [{ url: dest.heroImage, alt: `${dest.name} Tourism` }],
     },
@@ -331,7 +331,7 @@ export default async function DestinationDetailPage({ params }: Props) {
             <div className="p-4 rounded-2xl bg-emerald-50/70 border border-emerald-100 text-xs text-emerald-900 flex items-start gap-2.5">
               <ShieldCheck className="w-5 h-5 text-emerald-700 shrink-0 mt-0.5" />
               <span>
-                <strong>Permit Assistance:</strong> NE Dhaniya Tours arranges Inner Line Permits (ILP) and entry passes for all our booked travelers.
+                <strong>Permit Assistance:</strong> NE Dhanya Tour and Travels arranges Inner Line Permits (ILP) and entry passes for all our booked travelers.
               </span>
             </div>
           </div>
