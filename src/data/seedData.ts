@@ -396,7 +396,346 @@ export const initialDestinations: Destination[] = [
 ];
 
 export const initialTouristPlaces: TouristPlace[] = [
-  // MEGHALAYA PLACES
+  // ==========================================
+  // ASSAM TOURIST PLACES (Requested by user)
+  // ==========================================
+  {
+    id: "guwahati",
+    name: "Guwahati",
+    slug: "guwahati",
+    destinationSlug: "assam",
+    destinationName: "Assam",
+    shortDescription: "The gateway city of Northeast India, famous for Maa Kamakhya Temple, Brahmaputra river cruises & vibrant markets.",
+    description: "Guwahati is the bustling metropolitan gateway and commercial capital of Northeast India. Flanked by Nilachal Hill and the mighty Brahmaputra river, Guwahati blends ancient spiritual shaktipeeths like Kamakhya Temple and Umananda Peacock Island with scenic riverfront sunset cruises, museums, and rich silk markets.",
+    heroImage: "/images/assam.jpg",
+    topThingsToDo: [
+      "Darshan and blessings at the sacred Kamakhya Temple atop Nilachal Hill",
+      "Brahmaputra sunset dinner cruise with live folk music",
+      "Ferry ride to Umananda Temple, the smallest inhabited river island in the world",
+      "Shopping for pure Muga and Eri silk in Fancy Bazar and Sualkuchi"
+    ],
+    bestTimeToVisit: "October to April for mild, pleasant weather.",
+    howToReach: {
+      byAir: "Lokpriya Gopinath Bordoloi International Airport (GAU).",
+      byRail: "Guwahati Railway Station (GHY) & Kamakhya Junction (KYQ).",
+      byRoad: "Central transit hub connecting all Northeast India states."
+    },
+    travelTips: [
+      "Visit Kamakhya Temple early in the morning to avoid extended queue times, or book VIP pass assistance.",
+      "Book your airport transfer in advance with NE Dhanya Tour and Travels to avoid surge pricing."
+    ],
+    faqs: [
+      {
+        question: "Can I book outstation cabs from Guwahati Airport for Meghalaya or Kaziranga?",
+        answer: "Yes, NE Dhanya Tour and Travels provides reliable outstation cabs (Sedan, Innova, Traveler) right outside Guwahati Airport with flight-tracking pick-up."
+      }
+    ],
+    seoTitle: "Guwahati Tour Packages & Outstation Taxi Service | NE Dhanya Tour and Travels",
+    seoDescription: "Book Guwahati sightseeing tours, Kamakhya temple darshan, and airport taxi transfers across Northeast India with NE Dhanya Tour and Travels.",
+    status: "published",
+    createdAt: "2025-01-01T00:00:00.000Z",
+    updatedAt: "2025-01-01T00:00:00.000Z"
+  },
+  {
+    id: "kamakhya-temple",
+    name: "Kamakhya Temple",
+    slug: "kamakhya-temple",
+    destinationSlug: "assam",
+    destinationName: "Assam",
+    shortDescription: "Revered Shaktipeeth shrine atop Nilachal Hill, spiritual epicenter of Tantric worship & panoramic Brahmaputra river views.",
+    description: "The revered Maa Kamakhya Temple, situated atop Nilachal Hill in Guwahati, is one of the oldest and most venerated of the 51 Shakti Peethas in Hindu spirituality. Dedicated to the mother goddess Kamakhya, the temple features unique bee-hive shaped architecture, ancient stone sculptures, and the sanctum containing the sacred natural rock fissure. It is the epicentre of the grand annual Ambubachi Mela and provides sweeping panoramic views over the Brahmaputra River.",
+    heroImage: "/images/assam.jpg",
+    topThingsToDo: [
+      "Early morning VIP darshan at the sanctum sanctorum of Maa Kamakhya",
+      "Visit the ten Mahavidya temples surrounding the Nilachal hill complex",
+      "Admire the architectural stone carvings dating back to the Koch and Ahom dynasties",
+      "Enjoy breathtaking sunset views overlooking the Brahmaputra River from the temple viewpoints"
+    ],
+    bestTimeToVisit: "October to March for pleasant temperatures; June for the renowned Ambubachi Mela festival.",
+    howToReach: {
+      byAir: "Guwahati Airport (GAU) is 20 km away.",
+      byRail: "Kamakhya Railway Station (KYQ) is just 6 km away; Guwahati Station (GHY) is 8 km away.",
+      byRoad: "Well-paved hill road with taxis and private cabs directly ascending Nilachal Hill."
+    },
+    travelTips: [
+      "Traditional Indian attire is recommended when entering the temple sanctum.",
+      "NE Dhanya Tour and Travels arranges VIP queue entry passes and dedicated round-trip vehicle transfers."
+    ],
+    faqs: [
+      {
+        question: "What are the temple darshan timings at Kamakhya?",
+        answer: "The temple generally opens around 5:30 AM for morning rituals, with general darshan available from 8:00 AM to 1:00 PM and from 2:30 PM until sunset."
+      }
+    ],
+    seoTitle: "Kamakhya Temple Guwahati Darshan, Timings & Taxi | NE Dhanya Tour and Travels",
+    seoDescription: "Plan your Kamakhya Temple darshan in Guwahati. Book dedicated taxi transfers, VIP pass assistance & airport pick-up with NE Dhanya Tour and Travels.",
+    status: "published",
+    createdAt: "2025-01-01T00:00:00.000Z",
+    updatedAt: "2025-01-01T00:00:00.000Z"
+  },
+  {
+    id: "kaziranga-national-park",
+    name: "Kaziranga National Park",
+    slug: "kaziranga-national-park",
+    destinationSlug: "assam",
+    destinationName: "Assam",
+    shortDescription: "UNESCO World Heritage Site sheltering two-thirds of the world's great one-horned rhinoceroses.",
+    description: "Kaziranga National Park is a premier wildlife sanctuary stretching along the floodplains of the Brahmaputra River. In addition to harboring the world's highest density of one-horned rhinoceroses, Kaziranga is a tiger reserve, home to wild water buffaloes, Asian elephants, swamp deer, and hundreds of migratory bird species across Central, Western, Eastern, and Burapahar ranges.",
+    heroImage: "/images/Kaziranga Wildlife Safari & Tea Trail.webp",
+    topThingsToDo: [
+      "Early morning Elephant Safari in Kohora or Bagori range for up-close rhino sightings",
+      "Jeep Safari across Western and Eastern (Agoratoli) ranges for birds and wild buffaloes",
+      "Visiting Kaziranga National Orchid and Biodiversity Park to see indigenous orchids & cultural dances",
+      "Tasting organic Assam tea at surrounding tea gardens"
+    ],
+    bestTimeToVisit: "November to April. The park remains closed from May to October due to the annual Brahmaputra monsoon floods.",
+    howToReach: {
+      byAir: "Guwahati Airport (215 km) or Jorhat Airport (97 km).",
+      byRail: "Jakhalabandha (40 km), Furkating (75 km), or Guwahati (200 km).",
+      byRoad: "Located directly along NH 715, easily accessible by private taxi from Guwahati in 4 to 5 hours."
+    },
+    travelTips: [
+      "Elephant safari tickets should be booked well in advance through your tour operator as seats are strictly limited.",
+      "Bring binoculars and cameras with telephoto lenses for optimal wildlife photography."
+    ],
+    faqs: [
+      {
+        question: "Which safari is better: Elephant or Jeep safari?",
+        answer: "Both offer unique experiences! The elephant safari gets you very close to rhinos in elephant grass early in the morning, while the open jeep safari covers deeper distances across diverse forest habitats."
+      }
+    ],
+    seoTitle: "Kaziranga Tour Packages, Safari Booking & Taxi | NE Dhanya Tour and Travels",
+    seoDescription: "Book Kaziranga safari packages, Guwahati to Kaziranga cabs & comfortable hotel stays. See one-horned rhinos, tigers & wildlife with verified local experts.",
+    status: "published",
+    createdAt: "2025-01-01T00:00:00.000Z",
+    updatedAt: "2025-01-01T00:00:00.000Z"
+  },
+  {
+    id: "manas-national-park",
+    name: "Manas National Park",
+    slug: "manas-national-park",
+    destinationSlug: "assam",
+    destinationName: "Assam",
+    shortDescription: "UNESCO World Heritage Site, Project Tiger reserve & biosphere on Bhutan foothills, famed for golden langurs & river rafting.",
+    description: "Nestled in the serene Himalayan foothills contiguous with the Royal Manas National Park in Bhutan, Manas National Park is celebrated for its exceptional biodiversity and scenic beauty. It is a UNESCO World Heritage Site, Tiger Reserve, Elephant Reserve, and Biosphere Reserve. Manas shelters rare and endangered species including the endemic Golden Langur, Pygmy Hog, Hispid Hare, and Wild Water Buffalo, along with river rafting adventures down the pristine Manas River.",
+    heroImage: "/images/assam.jpg",
+    topThingsToDo: [
+      "Open-top 4x4 Jeep Safari across the lush Bansbari and Bhuyanpara ranges",
+      "Gentle river rafting on the crystal-clear waters of the Manas River along the Indo-Bhutan border",
+      "Spotting the rare Golden Langur and herds of wild Asian elephants",
+      "Visiting the border outpost of Mathanguri for sweeping views of the Bhutan hills"
+    ],
+    bestTimeToVisit: "November to April for clear weather and best wildlife sighting opportunities.",
+    howToReach: {
+      byAir: "Guwahati Airport (GAU) is 150 km away (approx 3.5 to 4 hours by road).",
+      byRail: "Barpeta Road Railway Station is 40 km away.",
+      byRoad: "Smooth highway drive from Guwahati via NH 27 towards Barpeta Road and Bansbari gate."
+    },
+    travelTips: [
+      "Stay at an eco-resort near the Bansbari gate for early morning safari departures.",
+      "Bring binoculars for watching Bengal Florican and great hornbills."
+    ],
+    faqs: [
+      {
+        question: "How is Manas different from Kaziranga?",
+        answer: "Manas features a stunning Himalayan foothill riverine backdrop, denser deciduous forests, rare golden langurs, and river rafting, offering a more tranquil and less crowded safari atmosphere."
+      }
+    ],
+    seoTitle: "Manas National Park Tour Packages & Cab Booking | NE Dhanya Tour and Travels",
+    seoDescription: "Explore Manas National Park with NE Dhanya Tour and Travels. Book jeep safaris, Guwahati to Manas taxi services, river rafting & eco jungle resorts.",
+    status: "published",
+    createdAt: "2025-01-01T00:00:00.000Z",
+    updatedAt: "2025-01-01T00:00:00.000Z"
+  },
+  {
+    id: "majuli-island",
+    name: "Majuli Island",
+    slug: "majuli-island",
+    destinationSlug: "assam",
+    destinationName: "Assam",
+    shortDescription: "The world's largest inhabited river island on Brahmaputra, neo-Vaishnavite Satras, traditional mask-making & Mishing tribal culture.",
+    description: "Majuli is an ethereal ecological and cultural wonder situated in the middle of the mighty Brahmaputra river. As the world's largest river island, Majuli is the heart of Assamese neo-Vaishnavite philosophy, home to historic Satras (monasteries) dating back to the 15th-century saint Srimanta Sankardeva. Famous for traditional handmade bamboo and clay masks at Samaguri Satra, classical Sattriya dance, pottery, and picturesque Mishing stilt houses, Majuli offers an idyllic escape into tranquility.",
+    heroImage: "/images/assam.jpg",
+    topThingsToDo: [
+      "Ferry ride across the Brahmaputra River from Nimati Ghat (Jorhat)",
+      "Witness traditional mask making by master artisans at Sri Sri Samaguri Satra",
+      "Explore historic monastic Satras like Dakhinpat, Auniati, and Kamalabari",
+      "Rent a bicycle to explore peaceful village trails, paddy fields, and Mishing bamboo stilt huts"
+    ],
+    bestTimeToVisit: "October to March for pleasant temperatures and cultural festivals like Raas Mahotsav (November).",
+    howToReach: {
+      byAir: "Jorhat Airport (JRH) is 25 km from Nimati Ghat; Guwahati Airport is 310 km away.",
+      byRail: "Jorhat Railway Station is the nearest rail connection.",
+      byRoad: "Drive to Nimati Ghat in Jorhat, followed by a scenic Ro-Pax government ferry ride across the Brahmaputra."
+    },
+    travelTips: [
+      "Check government ferry departure timings from Nimati Ghat to plan your crossing comfortably.",
+      "Stay in an authentic bamboo cottage homestay for an immersive local cultural experience."
+    ],
+    faqs: [
+      {
+        question: "Can we take our car to Majuli Island?",
+        answer: "Yes! Modern Ro-Pax ferries operate between Nimati Ghat and Majuli, safely carrying private passenger cars and SUVs."
+      }
+    ],
+    seoTitle: "Majuli Island Tour Packages & Jorhat Ferry Guide | NE Dhanya Tour and Travels",
+    seoDescription: "Visit Majuli Island, the world's largest river island. Book Majuli tour packages, cultural Satra visits, homestays & Jorhat taxi rentals with local experts.",
+    status: "published",
+    createdAt: "2025-01-01T00:00:00.000Z",
+    updatedAt: "2025-01-01T00:00:00.000Z"
+  },
+  {
+    id: "sivasagar",
+    name: "Sivasagar",
+    slug: "sivasagar",
+    destinationSlug: "assam",
+    destinationName: "Assam",
+    shortDescription: "Historical capital of the 600-year Ahom Kingdom, Rang Ghar amphitheatre, Talatal Ghar palace & massive Sivadol temple.",
+    description: "Sivasagar (the Ocean of Lord Shiva) is the historic epicenter of Assam's royal heritage. For over six centuries, Sivasagar served as the capital of the valiant Ahom dynasty who famously defeated Mughal invasions. Today, Sivasagar showcases marvels of medieval engineering: the two-storied royal pavilion Rang Ghar (Asia's oldest surviving amphitheater), the subterranean secret maze tunnels of Talatal Ghar, the royal palace Kareng Ghar at Gargaon, and the colossal Sivadol temple towering beside the vast man-made Sivasagar water tank.",
+    heroImage: "/images/assam.jpg",
+    topThingsToDo: [
+      "Marvel at the grand architecture of Rang Ghar, the royal sports pavilion of Ahom kings",
+      "Explore the underground secret passages and military design of Talatal Ghar",
+      "Visit Sivadol, one of the tallest Shiva temple towers in India, by the sacred Borpukhuri tank",
+      "Discover the seven-storied royal palace of Kareng Ghar in Gargaon"
+    ],
+    bestTimeToVisit: "October to April for comfortable weather and cultural celebrations like Shivratri.",
+    howToReach: {
+      byAir: "Jorhat Airport (55 km) or Dibrugarh Airport (80 km).",
+      byRail: "Simaluguri Junction (16 km) is the main railhead connecting Sivasagar.",
+      byRoad: "NH 715 connects Jorhat (55 km), Kaziranga (140 km), and Guwahati (360 km)."
+    },
+    travelTips: [
+      "Combine Sivasagar with Kaziranga and Majuli for the quintessential Assam heritage and wildlife circuit.",
+      "Hire an authorized local heritage guide to unravel the fascinating secrets of Ahom war architecture."
+    ],
+    faqs: [
+      {
+        question: "How old are the monuments in Sivasagar?",
+        answer: "Most monuments in Sivasagar were constructed in the 17th and 18th centuries under illustrious Ahom monarchs like Swargadeo Rudra Singha and Pramatta Singha."
+      }
+    ],
+    seoTitle: "Sivasagar Tour Packages & Ahom Heritage Guide | NE Dhanya Tour and Travels",
+    seoDescription: "Explore Sivasagar historical monuments: Rang Ghar, Talatal Ghar & Sivadol. Book custom Assam heritage tours and outstation taxi service with NE Dhanya.",
+    status: "published",
+    createdAt: "2025-01-01T00:00:00.000Z",
+    updatedAt: "2025-01-01T00:00:00.000Z"
+  },
+  {
+    id: "jorhat",
+    name: "Jorhat",
+    slug: "jorhat",
+    destinationSlug: "assam",
+    destinationName: "Assam",
+    shortDescription: "The Tea Capital of India, colonial tea estate bungalows, Tocklai Tea Research Institute & gateway to Majuli.",
+    description: "Known proudly as the Tea Capital of the World, Jorhat is enveloped by emerald oceans of manicured tea plantations and colonial planters' heritage. It is home to the historic Tocklai Tea Research Association (the world's oldest and largest tea research institute) and the century-old Jorhat Gymkhana Club. Serving as the primary gateway to the river island of Majuli, Jorhat combines colonial charm, world-class orthodox tea tasting, and cultural warmth.",
+    heroImage: "/images/assam.jpg",
+    topThingsToDo: [
+      "Tour rolling tea estates and learn traditional orthodox tea plucking and processing",
+      "Stay in a restored British colonial tea planter's heritage bungalow",
+      "Board the river ferry from Nimati Ghat to visit Majuli Island",
+      "Visit the historic Jorhat Gymkhana Club, one of the oldest golf clubs in Asia"
+    ],
+    bestTimeToVisit: "October to April for clear, pleasant weather.",
+    howToReach: {
+      byAir: "Rowriah Airport in Jorhat (JRH) connects to Kolkata and Guwahati.",
+      byRail: "Jorhat Town Railway Station and Mariani Junction (17 km).",
+      byRoad: "Located along NH 715, approx 300 km east of Guwahati and 90 km from Kaziranga."
+    },
+    travelTips: [
+      "Purchase factory-fresh Assam CTC and orthodox whole leaf black tea directly from estate retail counters.",
+      "Combine your stay in Jorhat with early morning transfers to Majuli Island."
+    ],
+    faqs: [
+      {
+        question: "Can tourists stay inside tea estates in Jorhat?",
+        answer: "Yes! Several heritage tea planter bungalows offer luxurious stays with colonial hospitality, tea factory tours, and gourmet Assamese cuisine."
+      }
+    ],
+    seoTitle: "Jorhat Tea Capital Tours & Taxi Rental | NE Dhanya Tour and Travels",
+    seoDescription: "Plan your trip to Jorhat, Assam. Heritage tea garden stays, Majuli ferry transfers, and reliable private cab rentals with NE Dhanya Tour and Travels.",
+    status: "published",
+    createdAt: "2025-01-01T00:00:00.000Z",
+    updatedAt: "2025-01-01T00:00:00.000Z"
+  },
+  {
+    id: "haflong",
+    name: "Haflong",
+    slug: "haflong",
+    destinationSlug: "assam",
+    destinationName: "Assam",
+    shortDescription: "Assam's only hill station, emerald green rolling peaks, Haflong Lake, misty valleys & Jatinga bird phenomenon.",
+    description: "Perched at an elevation of 2,300 feet amidst the Borail mountain range in Dima Hasao, Haflong is affectionately hailed as the 'Switzerland of the East' and is Assam's only hill station. Characterized by cool breezes, mist-shrouded valleys, scenic Haflong Lake, sprawling pineapple and orange orchards, and rich Dimasa tribal culture, Haflong offers an enchanting offbeat mountain retreat. Nearby Jatinga is globally renowned for its mysterious migratory bird phenomenon during late monsoons.",
+    heroImage: "/images/northeast-hero-bg.jpg",
+    topThingsToDo: [
+      "Boat ride and leisurely stroll along picturesque Haflong Lake and hanging footbridge",
+      "Witness panoramic views of the Borail mountain ranges from Haflong View Point",
+      "Visit the mysterious bird-watching ridge of Jatinga",
+      "Take the scenic Vistadome tourist train through the lush tunnels and gorges of Dima Hasao"
+    ],
+    bestTimeToVisit: "October to April for crisp mountain air and clear panoramic valley vistas.",
+    howToReach: {
+      byAir: "Guwahati Airport (GAU) is approx 310 km away; Silchar Airport (IXS) is 100 km away.",
+      byRail: "New Haflong Railway Station (NHLG) is famous for the scenic Vistadome train route from Guwahati.",
+      byRoad: "Scenic mountain highway NH 27 connects Guwahati to Haflong in approx 6.5 hours."
+    },
+    travelTips: [
+      "The Guwahati-Haflong Vistadome glass-roof train ride is one of India's most scenic rail journeys; book well in advance.",
+      "Pack light woolens as evenings can be pleasantly chilly even in summer."
+    ],
+    faqs: [
+      {
+        question: "What is the mystery of Jatinga in Haflong?",
+        answer: "During misty, foggy nights of September and October, various species of migratory and resident birds descend towards lights in Jatinga village due to high atmospheric winds and disorientation."
+      }
+    ],
+    seoTitle: "Haflong Hill Station Tour Packages & Vistadome Taxi | NE Dhanya Tour and Travels",
+    seoDescription: "Discover Haflong, Assam's only hill station. Book Haflong Lake tours, Jatinga excursions, and private car rentals from Guwahati with NE Dhanya.",
+    status: "published",
+    createdAt: "2025-01-01T00:00:00.000Z",
+    updatedAt: "2025-01-01T00:00:00.000Z"
+  },
+  {
+    id: "pobitora-wildlife-sanctuary",
+    name: "Pobitora Wildlife Sanctuary",
+    slug: "pobitora-wildlife-sanctuary",
+    destinationSlug: "assam",
+    destinationName: "Assam",
+    shortDescription: "Highest density of one-horned rhinos in the world, just 45 km from Guwahati, grassland safaris & birdwatching.",
+    description: "Located just a scenic 1.5-hour drive from Guwahati along the Brahmaputra floodplains, Pobitora Wildlife Sanctuary boasts the highest ecological density of the Great Indian One-Horned Rhinoceros anywhere on earth. Spanning grasslands, wetlands, and hillocks, Pobitora is ideal for travelers on tight schedules seeking guaranteed close-range rhino sightings on early morning elephant and open jeep safaris, alongside over 375 species of resident and migratory birds.",
+    heroImage: "/images/Kaziranga Wildlife Safari & Tea Trail.webp",
+    topThingsToDo: [
+      "Early morning elephant safari for guaranteed sightings of one-horned rhinos in tall elephant grass",
+      "Open 4x4 jeep safari across grassland tracks and Haduk Hanging Bridge",
+      "Birdwatching along the wetlands for migratory waterfowls, whistling ducks, and kingfishers",
+      "Scenic village drive along the Brahmaputra dyke"
+    ],
+    bestTimeToVisit: "November to April. The sanctuary is closed during the monsoon season (May to October).",
+    howToReach: {
+      byAir: "Guwahati Airport (GAU) is approx 65 km away.",
+      byRail: "Guwahati Railway Station (GHY) is 45 km away (approx 1.5 hours drive).",
+      byRoad: "Direct scenic drive via Chandrapur or NH 27 through Sonapur."
+    },
+    travelTips: [
+      "Pobitora can easily be visited as a convenient half-day or day trip from Guwahati.",
+      "Reach before 6:30 AM to catch the magical first elephant safari in the morning mist."
+    ],
+    faqs: [
+      {
+        question: "Can I visit Pobitora in a single day from Guwahati?",
+        answer: "Yes! Pobitora is located just 45 km from central Guwahati, making it the perfect day trip for wildlife lovers with limited travel time."
+      }
+    ],
+    seoTitle: "Pobitora Safari Booking & Guwahati Day Tour Taxi | NE Dhanya Tour and Travels",
+    seoDescription: "Book Pobitora elephant & jeep safari packages, Guwahati to Pobitora day trip cabs, and rhino watching tours with NE Dhanya Tour and Travels.",
+    status: "published",
+    createdAt: "2025-01-01T00:00:00.000Z",
+    updatedAt: "2025-01-01T00:00:00.000Z"
+  },
+
+  // ==========================================
+  // MEGHALAYA TOURIST PLACES
+  // ==========================================
   {
     id: "shillong",
     name: "Shillong",
@@ -405,7 +744,7 @@ export const initialTouristPlaces: TouristPlace[] = [
     destinationName: "Meghalaya",
     shortDescription: "The Scotland of the East featuring pine-covered hills, lively Police Bazar, Umiam Lake, and colonial charm.",
     description: "Shillong, the capital of Meghalaya, sits amidst pine-clad mountains and gentle rolling hills that earned it the moniker 'Scotland of the East'. With its vibrant music culture, cafe scene, bustling Police Bazar, scenic golf course, and historic heritage, Shillong serves as the primary base for exploring Meghalaya.",
-    heroImage: "https://images.unsplash.com/photo-1608889825103-eb5ed706fc64?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "/images/meghalaya.png",
     topThingsToDo: [
       "Boating and sunset watching at picturesque Umiam Lake",
       "Shopping and tasting local street food at Police Bazar & Ward's Lake",
@@ -442,7 +781,7 @@ export const initialTouristPlaces: TouristPlace[] = [
     destinationName: "Meghalaya",
     shortDescription: "Dramatic limestone gorges, misty canyons, Nohkalikai Falls, and living root bridges.",
     description: "Known locally as Sohra, Cherrapunji is globally famous for its historic rainfall records, dramatic cloud formations, and dramatic canyon drops. It is home to India's tallest plunge waterfall (Nohkalikai Falls), the mystical Seven Sisters Falls, Mawsmai limestone cave, and the trailheads descending to the legendary Double Decker Living Root Bridge.",
-    heroImage: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "/images/Meghalaya Scenic Escape.webp",
     topThingsToDo: [
       "Marvel at the turquoise plunge pool of Nohkalikai Falls",
       "Explore the natural stalactites and stalagmites of Mawsmai Cave",
@@ -479,7 +818,7 @@ export const initialTouristPlaces: TouristPlace[] = [
     destinationName: "Meghalaya",
     shortDescription: "Crystal clear Umngot River where boats appear to float in mid-air, riverside camping & water sports.",
     description: "Dawki is a picturesque border town famous for the crystal-clear Umngot River, where the water is so transparent during winter months that boats seem to hover in the air. A short distance away, Shnongpdeng offers pebble-beach riverside camping, kayaking, cliff jumping, and serene stargazing under dark mountain skies.",
-    heroImage: "https://images.unsplash.com/photo-1608889825103-eb5ed706fc64?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "/images/meghalaya.png",
     topThingsToDo: [
       "Country boat ride on the glass-like waters of the Umngot River",
       "Camping in riverside tents at Shnongpdeng village",
@@ -508,84 +847,121 @@ export const initialTouristPlaces: TouristPlace[] = [
     createdAt: "2025-01-01T00:00:00.000Z",
     updatedAt: "2025-01-01T00:00:00.000Z"
   },
-
-  // ASSAM PLACES
   {
-    id: "kaziranga-national-park",
-    name: "Kaziranga National Park",
-    slug: "kaziranga-national-park",
-    destinationSlug: "assam",
-    destinationName: "Assam",
-    shortDescription: "UNESCO World Heritage Site sheltering two-thirds of the world's great one-horned rhinoceroses.",
-    description: "Kaziranga National Park is a premier wildlife sanctuary stretching along the floodplains of the Brahmaputra River. In addition to harboring the world's highest density of one-horned rhinoceroses, Kaziranga is a tiger reserve, home to wild water buffaloes, Asian elephants, swamp deer, and hundreds of migratory bird species across Central, Western, Eastern, and Burapahar ranges.",
-    heroImage: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1000&q=80",
+    id: "mawlynnong",
+    name: "Mawlynnong",
+    slug: "mawlynnong",
+    destinationSlug: "meghalaya",
+    destinationName: "Meghalaya",
+    shortDescription: "Celebrated as Asia's Cleanest Village, single-decker living root bridge in Riwai & pristine bamboo skywalk.",
+    description: "Honored by Discover India as 'Asia's Cleanest Village', Mawlynnong is a peaceful rural paradise nestled in the East Khasi Hills. Paved with cobblestone pathways, bamboo waste bins, and blooming orchids, the village showcases centuries-old Khasi matrilineal culture. Nearby Riwai village hosts an accessible Single Decker Living Root Bridge, and the Sky Walk provides panoramic views into the floodplains of Bangladesh.",
+    heroImage: "/images/meghalaya.png",
     topThingsToDo: [
-      "Early morning Elephant Safari in Kohora or Bagori range for up-close rhino sightings",
-      "Jeep Safari across Western and Eastern (Agoratoli) ranges for birds and wild buffaloes",
-      "Visiting Kaziranga National Orchid and Biodiversity Park to see indigenous orchids & cultural dances",
-      "Tasting organic Assam tea at surrounding tea gardens"
+      "Walk across the ancient Single Decker Living Root Bridge in neighbouring Riwai",
+      "Climb the 85-foot bamboo machan (Sky Walk) overlooking Bangladesh",
+      "Marvel at the natural geological wonder of the Balancing Rock",
+      "Taste home-cooked Khasi organic meals at traditional village homestays"
     ],
-    bestTimeToVisit: "November to April. The park remains closed from May to October due to the annual Brahmaputra monsoon floods.",
+    bestTimeToVisit: "September to May for pleasant, sunny village walks.",
     howToReach: {
-      byAir: "Guwahati Airport (215 km) or Jorhat Airport (97 km).",
-      byRail: "Jakhalabandha (40 km), Furkating (75 km), or Guwahati (200 km).",
-      byRoad: "Located directly along NH 715, easily accessible by private taxi from Guwahati in 4 to 5 hours."
+      byAir: "Guwahati Airport (approx 190 km).",
+      byRail: "Guwahati Railway Station (approx 170 km).",
+      byRoad: "90 km from Shillong (approx 2.5 hours drive via Pynursla)."
     },
     travelTips: [
-      "Elephant safari tickets should be booked well in advance through your tour operator as seats are strictly limited.",
-      "Bring binoculars and cameras with telephoto lenses for optimal wildlife photography."
+      "Mawlynnong is 100% plastic-free; please dispose of all waste strictly in conical bamboo bins.",
+      "Combine with Dawki on the same route for a seamless full-day itinerary."
     ],
     faqs: [
       {
-        question: "Which safari is better: Elephant or Jeep safari?",
-        answer: "Both offer unique experiences! The elephant safari gets you very close to rhinos in elephant grass early in the morning, while the open jeep safari covers deeper distances across diverse forest habitats."
+        question: "Is the Living Root Bridge in Mawlynnong easy to reach?",
+        answer: "Yes! Unlike the 3,500-step trek to Nongriat, the Riwai root bridge near Mawlynnong is just a gentle 10-minute walk down paved stone steps, suitable for children and elders."
       }
     ],
-    seoTitle: "Kaziranga Tour Packages, Safari Booking & Taxi | NE Dhanya Tour and Travels",
-    seoDescription: "Book Kaziranga safari packages, Guwahati to Kaziranga cabs & comfortable hotel stays. See one-horned rhinos, tigers & wildlife with verified local experts.",
+    seoTitle: "Mawlynnong Cleanest Village Tour & Taxi | NE Dhanya Tour and Travels",
+    seoDescription: "Visit Mawlynnong, Asia's Cleanest Village & Riwai Living Root Bridge. Book Shillong to Mawlynnong cab service and customized tours on WhatsApp.",
     status: "published",
     createdAt: "2025-01-01T00:00:00.000Z",
     updatedAt: "2025-01-01T00:00:00.000Z"
   },
   {
-    id: "guwahati",
-    name: "Guwahati",
-    slug: "guwahati",
-    destinationSlug: "assam",
-    destinationName: "Assam",
-    shortDescription: "The gateway city of Northeast India, famous for Maa Kamakhya Temple, Brahmaputra river cruises & vibrant markets.",
-    description: "Guwahati is the bustling metropolitan gateway and commercial capital of Northeast India. Flanked by Nilachal Hill and the mighty Brahmaputra river, Guwahati blends ancient spiritual shaktipeeths like Kamakhya Temple and Umananda Peacock Island with scenic riverfront sunset cruises, museums, and rich silk markets.",
-    heroImage: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1000&q=80",
+    id: "laitlum-canyon",
+    name: "Laitlum Canyon",
+    slug: "laitlum-canyon",
+    destinationSlug: "meghalaya",
+    destinationName: "Meghalaya",
+    shortDescription: "Dramatic amphitheater of endless green gorges, mist-covered mountain rims & sweeping Rasong valley vistas.",
+    description: "Laitlum, meaning 'End of Hills', is one of Meghalaya's most breathtaking geological wonders. Perched atop the East Khasi Hills, the canyon plunges thousands of feet into winding emerald river valleys below. Often wrapped in dramatic swirling mist, Laitlum offers an awe-inspiring 360-degree panorama of rolling meadows and an ancient steep stairway leading down to the hidden village of Rasong.",
+    heroImage: "/images/meghalaya.png",
     topThingsToDo: [
-      "Darshan and blessings at the sacred Kamakhya Temple atop Nilachal Hill",
-      "Brahmaputra sunset dinner cruise with live folk music",
-      "Ferry ride to Umananda Temple, the smallest inhabited river island in the world",
-      "Shopping for pure Muga and Eri silk in Fancy Bazar and Sualkuchi"
+      "Witness mesmerizing sunrise and shifting cloud formations over the canyon abyss",
+      "Walk along the precipitous cliff edges and capture breathtaking landscape photographs",
+      "Trek down the rustic 3,000-step stone stairway connecting the canyon rim to Rasong valley",
+      "Enjoy a serene mountain picnic amidst highland grassy meadows"
     ],
-    bestTimeToVisit: "October to April for mild, pleasant weather.",
+    bestTimeToVisit: "October to April for clearest valley vistas and golden afternoon sunlight.",
     howToReach: {
-      byAir: "Lokpriya Gopinath Bordoloi International Airport (GAU).",
-      byRail: "Guwahati Railway Station (GHY) & Kamakhya Junction (KYQ).",
-      byRoad: "Central transit hub connecting all Northeast India states."
+      byAir: "Guwahati Airport (140 km).",
+      byRail: "Guwahati Station (120 km).",
+      byRoad: "Located just 24 km from central Shillong (approx 45 minutes to 1 hour drive)."
     },
     travelTips: [
-      "Visit Kamakhya Temple early in the morning to avoid extended queue times, or book VIP pass assistance.",
-      "Book your airport transfer in advance to avoid surge pricing."
+      "Carry a light jacket as winds along the exposed canyon ridge can be brisk and cold.",
+      "Keep a safe distance from cliff edges as there are no artificial railings."
     ],
     faqs: [
       {
-        question: "Can I book outstation cabs from Guwahati Airport for Meghalaya or Kaziranga?",
-        answer: "Yes, NE Dhanya Tour and Travels provides reliable outstation cabs (Sedan, Innova, Traveler) right outside Guwahati Airport with flight-tracking pick-up."
+        question: "Can Laitlum Canyon be visited on the way from Guwahati to Shillong?",
+        answer: "Laitlum is best visited on a day tour from Shillong or combined with Krang Suri / Jowai sightseeing."
       }
     ],
-    seoTitle: "Guwahati Tour Packages & Outstation Taxi Service | NE Dhanya Tour and Travels",
-    seoDescription: "Book Guwahati sightseeing tours, Kamakhya temple darshan, and airport taxi transfers across Northeast India with NE Dhanya Tour and Travels.",
+    seoTitle: "Laitlum Canyon Sightseeing & Shillong Taxi | NE Dhanya Tour and Travels",
+    seoDescription: "Explore Laitlum Canyon Meghalaya. Breathtaking gorge views, photography & private taxi transfers from Shillong with NE Dhanya Tour and Travels.",
+    status: "published",
+    createdAt: "2025-01-01T00:00:00.000Z",
+    updatedAt: "2025-01-01T00:00:00.000Z"
+  },
+  {
+    id: "krang-suri-falls",
+    name: "Krang Suri Falls",
+    slug: "krang-suri-falls",
+    destinationSlug: "meghalaya",
+    destinationName: "Meghalaya",
+    shortDescription: "Fairytale waterfall in Jowai featuring an iridescent turquoise natural swimming pool, cave path & boating.",
+    description: "Tucked away in the West Jaintia Hills near Amlarem, Krang Suri is arguably the most magical waterfall in Northeast India. The waterfall pours gracefully over a broad limestone ledge into a natural turquoise swimming pool so vibrant it appears illuminated. A stone-carved pathway chiseled into the cliff allows visitors to walk safely behind the waterfall curtain.",
+    heroImage: "/images/meghalaya.png",
+    topThingsToDo: [
+      "Swim in the safe, crystal-clear turquoise natural plunge pool (life jackets mandatory)",
+      "Walk along the stone trail behind the roaring curtain of falling water",
+      "Paddle boating on the tranquil calm stretch above the waterfall",
+      "Camp overnight at riverside eco-campsites nearby"
+    ],
+    bestTimeToVisit: "September to April for brilliant turquoise water color.",
+    howToReach: {
+      byAir: "Guwahati Airport (approx 170 km).",
+      byRail: "Guwahati Railway Station (150 km).",
+      byRoad: "Located 85 km from Shillong via Jowai (approx 2.5 to 3 hours drive)."
+    },
+    travelTips: [
+      "Life jackets are strictly compulsory for swimming and provided on rent at the counter.",
+      "Carry extra dry clothes and towels if you plan to enter the water."
+    ],
+    faqs: [
+      {
+        question: "Is swimming allowed at Krang Suri Falls?",
+        answer: "Yes, supervised swimming is permitted in designated safe areas with rented life jackets."
+      }
+    ],
+    seoTitle: "Krang Suri Falls Jowai Tour & Cab Service | NE Dhanya Tour and Travels",
+    seoDescription: "Visit the magical turquoise waters of Krang Suri Falls in Meghalaya. Book Shillong to Krang Suri taxi, swimming permits & day tour packages.",
     status: "published",
     createdAt: "2025-01-01T00:00:00.000Z",
     updatedAt: "2025-01-01T00:00:00.000Z"
   },
 
-  // ARUNACHAL PRADESH PLACES
+  // ==========================================
+  // ARUNACHAL PRADESH TOURIST PLACES
+  // ==========================================
   {
     id: "tawang",
     name: "Tawang",
@@ -594,7 +970,7 @@ export const initialTouristPlaces: TouristPlace[] = [
     destinationName: "Arunachal Pradesh",
     shortDescription: "High-altitude Himalayan wonder boasting India's largest Buddhist monastery, Bumla Pass & Sela Pass.",
     description: "Perched at an elevation of approximately 10,000 feet near the borders of Tibet and Bhutan, Tawang is an awe-inspiring mountain destination. It is celebrated for the 400-year-old Tawang Monastery (Galden Namgey Lhatse), the sacred high-altitude Sangetsar (Madhuri) Lake, the Indo-China border at Bumla Pass (15,200 ft), and the heroic Jaswant Garh War Memorial.",
-    heroImage: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "/images/Tawang Mountain Odyssey.avif",
     topThingsToDo: [
       "Pay respects at Tawang Monastery and explore its ancient museum and library",
       "Drive across Sela Pass (13,700 ft) and pause by the frozen Sela Lake",
@@ -623,8 +999,84 @@ export const initialTouristPlaces: TouristPlace[] = [
     createdAt: "2025-01-01T00:00:00.000Z",
     updatedAt: "2025-01-01T00:00:00.000Z"
   },
+  {
+    id: "sela-pass",
+    name: "Sela Pass & Sela Lake",
+    slug: "sela-pass",
+    destinationSlug: "arunachal-pradesh",
+    destinationName: "Arunachal Pradesh",
+    shortDescription: "High-altitude mountain pass at 13,700 ft, frozen turquoise lake, 101 sacred lakes & Jaswant Garh War Memorial.",
+    description: "Sela Pass, situated at a breathtaking elevation of 13,700 feet (4,170 m), is the lifeline mountain pass connecting Tawang to the rest of India. Capped in snow for most of the year, the pass is home to the sacred Sela Lake (Paradise Lake), reverently believed by Buddhists to be surrounded by 101 sacred lakes. Nearby lies the revered Jaswant Garh War Memorial, honoring rifleman Jaswant Singh Rawat of the 1962 Sino-Indian War.",
+    heroImage: "/images/Arunachal-Pradesh.jpg",
+    topThingsToDo: [
+      "Photo stop at the iconic Sela Pass gateway gate draped in colorful Buddhist prayer flags",
+      "Witness the partially frozen turquoise waters of Sela Lake",
+      "Pay solemn respects at Jaswant Garh War Memorial and enjoy complimentary army hot tea",
+      "Experience snow walking and panoramic Himalayan alpine photography"
+    ],
+    bestTimeToVisit: "March to May for spring weather and rhododendron blooms; October to November for clear pass crossings; December to February for pure winter snow.",
+    howToReach: {
+      byAir: "Guwahati Airport (380 km).",
+      byRail: "Guwahati or Tezpur Railway Station.",
+      byRoad: "Traversed along the Trans-Arunachal Highway between Dirang (65 km) and Tawang (75 km)."
+    },
+    travelTips: [
+      "Drink plenty of water and avoid vigorous running at the pass summit to prevent sudden altitude sickness.",
+      "Always carry thermal jackets, gloves, and snow glasses."
+    ],
+    faqs: [
+      {
+        question: "Is Sela Pass open during heavy winter snow?",
+        answer: "The Border Roads Organisation (BRO) works year-round to keep Sela Pass clear, and the newly opened Sela Tunnel now ensures seamless all-weather connectivity."
+      }
+    ],
+    seoTitle: "Sela Pass Arunachal Pradesh Travel Guide | NE Dhanya Tour and Travels",
+    seoDescription: "Cross Sela Pass at 13,700 ft on your way to Tawang. Sela Lake viewpoints, road status & Guwahati to Tawang car rentals with NE Dhanya Tour and Travels.",
+    status: "published",
+    createdAt: "2025-01-01T00:00:00.000Z",
+    updatedAt: "2025-01-01T00:00:00.000Z"
+  },
+  {
+    id: "dirang-valley",
+    name: "Dirang Valley",
+    slug: "dirang-valley",
+    destinationSlug: "arunachal-pradesh",
+    destinationName: "Arunachal Pradesh",
+    shortDescription: "Picturesque temperate mountain valley, kiwi orchards, hot water springs, Dirang Dzong & Sangti Valley.",
+    description: "Resting gracefully at 4,900 feet in West Kameng, Dirang is a postcard-perfect mountain valley known for its pleasant microclimate, kiwi and apple orchards, and historical Monpa tribal settlements. Highlights include the 17th-century stone fortress Dirang Dzong, natural hot sulfur water springs, the Thupsung Dhargye Ling Monastery, and the idyllic Sangti Valley where rare Black-Necked Cranes winter.",
+    heroImage: "/images/Arunachal-Pradesh.jpg",
+    topThingsToDo: [
+      "Explore the 500-year-old stone architecture of Dirang Dzong",
+      "Dip your feet into therapeutic natural hot springs along the Dirang River",
+      "Visit scenic Sangti Valley with its wooden suspension bridge and grazing sheep herds",
+      "Meditation and panoramic valley viewpoints at Thupsung Dhargye Ling Monastery"
+    ],
+    bestTimeToVisit: "September to May for pleasant valley temperatures.",
+    howToReach: {
+      byAir: "Guwahati Airport (310 km) or Tezpur (180 km).",
+      byRail: "Tezpur (Rangapara) or Guwahati railway station.",
+      byRoad: "Situated 42 km ahead of Bomdila along the Guwahati-Tawang highway."
+    },
+    travelTips: [
+      "Dirang is the recommended acclimatization stopover before ascending to Sela Pass and Tawang.",
+      "Sample fresh locally harvested kiwis, persimmons, and organic mountain honey."
+    ],
+    faqs: [
+      {
+        question: "Why is Dirang preferred over Bomdila for an overnight halt?",
+        answer: "Dirang lies at a gentler altitude (4,900 ft vs 8,500 ft in Bomdila), offering warmer night temperatures, scenic riverside resorts, and closer proximity to Sela Pass."
+      }
+    ],
+    seoTitle: "Dirang Valley Arunachal Tour Packages | NE Dhanya Tour and Travels",
+    seoDescription: "Plan your Dirang Valley stay. Sangti Valley, hot springs, Dirang Dzong & comfortable riverside hotels. Book Guwahati to Tawang cabs on WhatsApp.",
+    status: "published",
+    createdAt: "2025-01-01T00:00:00.000Z",
+    updatedAt: "2025-01-01T00:00:00.000Z"
+  },
 
-  // SIKKIM PLACES
+  // ==========================================
+  // SIKKIM TOURIST PLACES
+  // ==========================================
   {
     id: "gangtok",
     name: "Gangtok",
@@ -633,7 +1085,7 @@ export const initialTouristPlaces: TouristPlace[] = [
     destinationName: "Sikkim",
     shortDescription: "Clean, scenic capital city with panoramic Kanchenjunga viewpoints, MG Marg, and ancient monasteries.",
     description: "Gangtok, the pristine capital of Sikkim, balances charming hill-station tranquility with modern vibrancy. Straddling mountain ridges, Gangtok features the pedestrianized, vehicle-free MG Marg, the historic Enchey and Rumtek monasteries, the scenic ropeway cable car, and serves as the gateway to North Sikkim and Tsomgo Lake.",
-    heroImage: "https://images.unsplash.com/photo-1571536802807-30451e3955d8?auto=format&fit=crop&w=1000&q=80",
+    heroImage: "/images/sikkim.jpg",
     topThingsToDo: [
       "Stroll along the clean, floral promenades of MG Marg",
       "Ride the Gangtok Ropeway for sweeping valley and city views",
@@ -658,6 +1110,318 @@ export const initialTouristPlaces: TouristPlace[] = [
     ],
     seoTitle: "Gangtok Tour Packages & Taxi Service | NE Dhanya Tour and Travels",
     seoDescription: "Plan your Gangtok trip with NE Dhanya Tour and Travels. Affordable packages, NJP to Gangtok car rentals, Tsomgo Lake day tours & North Sikkim trips.",
+    status: "published",
+    createdAt: "2025-01-01T00:00:00.000Z",
+    updatedAt: "2025-01-01T00:00:00.000Z"
+  },
+  {
+    id: "tsomgo-lake",
+    name: "Tsomgo Lake & Nathula Pass",
+    slug: "tsomgo-lake",
+    destinationSlug: "sikkim",
+    destinationName: "Sikkim",
+    shortDescription: "Sacred glacial lake at 12,400 ft, yak rides, Baba Harbhajan Mandir & historic Indo-China border pass at Nathula.",
+    description: "Tsomgo Lake (Changu Lake) is a sacred glacial lake perched at an altitude of 12,400 feet, surrounded by steep snow-clad peaks. Its surface mirrors shifting seasons, freezing completely in winter and surrounded by alpine flowers in spring. Further up lies the historic Nathula Pass on the Indo-China border (14,140 ft) along the Old Silk Route, and the sacred memorial shrine of Baba Harbhajan Singh.",
+    heroImage: "/images/Sikkim Himalayan Explorer.jpg",
+    topThingsToDo: [
+      "Ride decorated mountain yaks along the shores of glacial Tsomgo Lake",
+      "Stand at the international Indo-China border gate at Nathula Pass (subject to army permit)",
+      "Pay homage at the legendary Baba Harbhajan Singh temple",
+      "Ride the highest ropeway cable car in the region at Tsomgo"
+    ],
+    bestTimeToVisit: "March to May for spring flowers; October to December for clear mountain vistas; January to March for frozen snow landscapes.",
+    howToReach: {
+      byAir: "Bagdogra Airport (160 km via Gangtok).",
+      byRail: "NJP Railway Station (155 km).",
+      byRoad: "Located 40 km from Gangtok (approx 2 to 2.5 hours drive via Jawaharlal Nehru Road)."
+    },
+    travelTips: [
+      "Nathula Pass is open for Indian tourists Wednesday to Sunday and strictly closed on Mondays and Tuesdays.",
+      "Permits must be applied at least 24-48 hours in advance with 2 passport photos and valid Indian ID."
+    ],
+    faqs: [
+      {
+        question: "Can foreign nationals visit Nathula Pass?",
+        answer: "Foreign nationals are permitted up to Tsomgo Lake and Baba Mandir with Protected Area Permits (PAP), but Nathula Pass border itself is restricted strictly to Indian citizens."
+      }
+    ],
+    seoTitle: "Tsomgo Lake & Nathula Pass Tour Permits | NE Dhanya Tour and Travels",
+    seoDescription: "Book Tsomgo Lake day tour, Nathula Pass permits & Baba Mandir excursion from Gangtok. Reliable 4x4 cabs with NE Dhanya Tour and Travels.",
+    status: "published",
+    createdAt: "2025-01-01T00:00:00.000Z",
+    updatedAt: "2025-01-01T00:00:00.000Z"
+  },
+  {
+    id: "yumthang-valley",
+    name: "Yumthang Valley of Flowers & Zero Point",
+    slug: "yumthang-valley",
+    destinationSlug: "sikkim",
+    destinationName: "Sikkim",
+    shortDescription: "Alpine rhododendron sanctuary at 11,800 ft, sulfur hot springs & snowbound Zero Point at 15,300 ft.",
+    description: "Known popularly as the 'Valley of Flowers of the East', Yumthang Valley in North Sikkim is an ethereal alpine wonderland situated at 11,800 feet. Fringed by pine forests, hot sulfur springs, and the meandering Yumthang River, the valley blossoms into a riot of colors with over 24 species of wild rhododendrons in spring. Higher up lies Zero Point (Yumesamdong) at 15,300 feet, where the civilian road terminates amidst eternal snow.",
+    heroImage: "/images/sikkim.jpg",
+    topThingsToDo: [
+      "Witness blooming rhododendron forests at Shingba Rhododendron Sanctuary in spring",
+      "Dip into the natural therapeutic hot sulfur water spring",
+      "Excursion to snowbound Zero Point (Yumesamdong) for snow play and alpine views",
+      "Experience cozy wooden cottage hospitality in the alpine village of Lachung"
+    ],
+    bestTimeToVisit: "March to May for spectacular rhododendron blossoms; December to March for heavy snow cover at Zero Point.",
+    howToReach: {
+      byAir: "Bagdogra Airport (245 km).",
+      byRail: "New Jalpaiguri (240 km).",
+      byRoad: "Travel via Gangtok to Lachung (overnight stay), then 25 km drive up to Yumthang Valley."
+    },
+    travelTips: [
+      "North Sikkim trips require robust 4x4 vehicles like Innova, Scorpio, or Bolero with experienced local hill drivers.",
+      "Rent heavy snow coats and snow gumboots from local stalls in Lachung or Yumthang."
+    ],
+    faqs: [
+      {
+        question: "Is Zero Point included in the standard North Sikkim tour?",
+        answer: "Zero Point is an optional day excursion from Yumthang Valley that can be added for a nominal direct vehicle surcharge depending on snow and weather."
+      }
+    ],
+    seoTitle: "Yumthang Valley & Zero Point Tour Packages | NE Dhanya Tour and Travels",
+    seoDescription: "Book North Sikkim Lachung, Yumthang Valley & Zero Point tour packages with NE Dhanya Tour and Travels. Verified cabs, permits & comfortable stays.",
+    status: "published",
+    createdAt: "2025-01-01T00:00:00.000Z",
+    updatedAt: "2025-01-01T00:00:00.000Z"
+  },
+
+  // ==========================================
+  // NAGALAND TOURIST PLACES
+  // ==========================================
+  {
+    id: "kohima",
+    name: "Kohima",
+    slug: "kohima",
+    destinationSlug: "nagaland",
+    destinationName: "Nagaland",
+    shortDescription: "Historic hilltop capital, pivotal 1944 Battle of Kohima WWII Cemetery, State Museum & local bazaars.",
+    description: "Kohima, the scenic capital of Nagaland, is steeped in WWII military history, rich indigenous tribal culture, and hilltop charm. Built across mountain ridges at an altitude of 4,738 feet, Kohima is renowned for the beautifully landscaped Commonwealth War Graves Cemetery, the Kohima Cathedral on Aradurah Hill, the Nagaland State Museum, and its proximity to Kisama Heritage Village.",
+    heroImage: "/images/nagaland.avif",
+    topThingsToDo: [
+      "Pay respects at the historic WWII Kohima War Cemetery and read the famous Kohima Epitaph",
+      "Explore Naga tribal artifacts, weaponries, and musical instruments at the State Museum",
+      "Marvel at the grand architecture of the Catholic Cathedral on Aradurah Hill",
+      "Shop for authentic Naga shawls, hand-woven cane baskets, and bamboo pickles"
+    ],
+    bestTimeToVisit: "October to May. December is peak season for the world-famous Hornbill Festival.",
+    howToReach: {
+      byAir: "Dimapur Airport (DMU) is 74 km away (approx 2.5 to 3 hours drive).",
+      byRail: "Dimapur Railway Station (DMV) has broad-gauge express trains to Guwahati and Kolkata.",
+      byRoad: "NH 29 connects Dimapur to Kohima over a scenic mountain highway."
+    },
+    travelTips: [
+      "Inner Line Permit (ILP) is required for Indian citizens and easily arranged online by NE Dhanya.",
+      "Book months in advance if traveling during the Hornbill Festival (Dec 1-10)."
+    ],
+    faqs: [
+      {
+        question: "How far is Kohima from Dimapur?",
+        answer: "Kohima is 74 km from Dimapur, taking around 2.5 to 3 hours by private cab along NH 29."
+      }
+    ],
+    seoTitle: "Kohima Tour Packages & Dimapur to Kohima Taxi | NE Dhanya Tour and Travels",
+    seoDescription: "Plan your Kohima Nagaland trip. WWII Cemetery, Hornbill Festival transfers, Dimapur to Kohima cabs & local sightseeing packages with NE Dhanya.",
+    status: "published",
+    createdAt: "2025-01-01T00:00:00.000Z",
+    updatedAt: "2025-01-01T00:00:00.000Z"
+  },
+  {
+    id: "dzukou-valley",
+    name: "Dzukou Valley",
+    slug: "dzukou-valley",
+    destinationSlug: "nagaland",
+    destinationName: "Nagaland",
+    shortDescription: "Pristine valley of rolling emerald bamboo hills at 2,452m, natural stream pools & rare endemic Dzukou lilies.",
+    description: "Straddling the border of Nagaland and Manipur at an elevation of 2,452 meters, Dzukou Valley is one of India's most extraordinary high-altitude trekking paradises. Characterized by gently rolling, undulating hills carpeted in dwarf bamboo, crystal-clear cold mountain streams, and natural caves, Dzukou transforms in summer with blooming rare endemic Dzukou lilies and wildflowers.",
+    heroImage: "/images/nagaland.avif",
+    topThingsToDo: [
+      "Trek through mossy rainforest trails via Viswema or Jakhama route",
+      "Stand in awe of the endless emerald rolling curves of the valley floor",
+      "Camp under pristine star-filled dark skies in alpine dormitory rest houses or tents",
+      "Photograph rare Dzukou lilies in peak bloom during monsoon months"
+    ],
+    bestTimeToVisit: "June to September for blooming wildflowers and lush greenery; October to March for clear, crisp trekking skies.",
+    howToReach: {
+      byAir: "Dimapur Airport (approx 100 km to trek trailhead).",
+      byRail: "Dimapur Railway Station.",
+      byRoad: "Drive from Kohima (25 km) to Viswema or Jakhama village, from where the hiking trail begins."
+    },
+    travelTips: [
+      "The Viswema trail is longer but gentler; the Jakhama trail is steeper and faster. Most trekkers ascend via Viswema and descend via Jakhama.",
+      "Carry raincoats, sturdy hiking boots, and warm fleece layers as valley nights are freezing."
+    ],
+    faqs: [
+      {
+        question: "How difficult is the Dzukou Valley trek?",
+        answer: "The trek is moderately challenging, requiring 4 to 5 hours of uphill hiking to reach the valley ridge, suitable for anyone with average fitness."
+      }
+    ],
+    seoTitle: "Dzukou Valley Trek Guide & Kohima Taxi | NE Dhanya Tour and Travels",
+    seoDescription: "Book Dzukou Valley trekking guides, camp permits, and Kohima to Viswema/Jakhama trailhead taxi service with NE Dhanya Tour and Travels.",
+    status: "published",
+    createdAt: "2025-01-01T00:00:00.000Z",
+    updatedAt: "2025-01-01T00:00:00.000Z"
+  },
+
+  // ==========================================
+  // BHUTAN TOURIST PLACES
+  // ==========================================
+  {
+    id: "thimphu",
+    name: "Thimphu",
+    slug: "thimphu",
+    destinationSlug: "bhutan",
+    destinationName: "Bhutan",
+    shortDescription: "Peaceful capital of Bhutan, Buddha Dordenma golden statue, Tashichho Dzong & traditional crafts.",
+    description: "Thimphu, the tranquil capital of the Kingdom of Bhutan, uniquely blends centuries-old Buddhist traditions with modern governance. As the only capital city in the world without a single traffic light, Thimphu features the colossal 169-foot Buddha Dordenma bronze statue, the riverside fortress Tashichho Dzong, the National Memorial Chorten, and the Motithang Takin Preserve.",
+    heroImage: "/images/bhutan.jpg",
+    topThingsToDo: [
+      "Visit Buddha Dordenma (Buddha Point) for sweeping panoramas over Thimphu valley",
+      "Witness evening lighting and monastic splendour at Tashichho Dzong",
+      "Spin prayer wheels alongside locals at the National Memorial Chorten",
+      "See the unique national animal Takin at Motithang Preserve and shop at the Craft Bazaar"
+    ],
+    bestTimeToVisit: "March to May for spring weather; September to November for clear autumn skies and Tshechu festivals.",
+    howToReach: {
+      byAir: "Paro International Airport (PBH) is 50 km away (approx 1.5 hours drive).",
+      byRail: "Hasimara Railway Station in West Bengal (170 km via Phuentsholing border).",
+      byRoad: "Smooth highway drive from border towns Phuentsholing (165 km) or Samdrup Jongkhar via Guwahati."
+    },
+    travelTips: [
+      "Dress respectfully in full-sleeved shirts and long trousers when visiting Dzongs and temples.",
+      "NE Dhanya Tour and Travels provides end-to-end Bhutan Entry Permit processing."
+    ],
+    faqs: [
+      {
+        question: "Do Indian tourists require a passport for Bhutan?",
+        answer: "Indian citizens can travel with either an Indian Passport (minimum 6 months validity) or a valid Voter Identity Card issued by the Election Commission of India."
+      }
+    ],
+    seoTitle: "Thimphu Bhutan Tour Packages & Cab Booking | NE Dhanya Tour and Travels",
+    seoDescription: "Discover Thimphu with NE Dhanya Tour and Travels. Buddha Point, Dzong visits, entry permit assistance & private Bhutan tourist car rentals.",
+    status: "published",
+    createdAt: "2025-01-01T00:00:00.000Z",
+    updatedAt: "2025-01-01T00:00:00.000Z"
+  },
+  {
+    id: "paro",
+    name: "Paro & Tiger's Nest",
+    slug: "paro",
+    destinationSlug: "bhutan",
+    destinationName: "Bhutan",
+    shortDescription: "Iconic cliffside pilgrimage hike to Tiger's Nest Monastery (Paro Taktsang), Rinpung Dzong & National Museum.",
+    description: "Paro is a breathtaking mountain valley home to Bhutan's sole international airport and the kingdom's most sacred pilgrimage site: Paro Taktsang (The Tiger's Nest). Clinging miraculously to a sheer granite cliff 900 meters above the valley floor, Tiger's Nest is where Guru Padmasambhava meditated in the 8th century. Paro also boasts the majestic Rinpung Dzong, the ancient Ta Dzong National Museum, and traditional wooden cantilever bridges.",
+    heroImage: "/images/Bhutan Cultural & Himalayan Experience.jpg",
+    topThingsToDo: [
+      "Embark on the iconic 4 to 5 hour pilgrimage hike to cliffside Tiger's Nest Monastery",
+      "Walk across the traditional cantilever bridge to historic Rinpung Dzong",
+      "Explore Bhutanese natural history and ancient thangkas at Ta Dzong (National Museum)",
+      "Unwind after the hike with a traditional Bhutanese hot stone herbal bath"
+    ],
+    bestTimeToVisit: "March to May and September to November.",
+    howToReach: {
+      byAir: "Paro International Airport (PBH) is located right in the valley.",
+      byRail: "Hasimara or New Alipurduar railway stations in West Bengal.",
+      byRoad: "Drive from Thimphu (50 km, 1.5 hours) or Phuentsholing border (145 km)."
+    },
+    travelTips: [
+      "Start the Tiger's Nest hike early (around 7:30 AM) to beat midday sun and crowds.",
+      "Horses/ponies can be rented for the uphill stretch up to the cafeteria midpoint."
+    ],
+    faqs: [
+      {
+        question: "How difficult is the hike to Tiger's Nest Monastery?",
+        answer: "The hike is moderate to demanding, taking around 2 to 3 hours uphill and 1.5 hours downhill, with well-trodden pine forest trails and stone stairs near the gorge."
+      }
+    ],
+    seoTitle: "Tiger's Nest Paro Tour Packages & Hike Guide | NE Dhanya Tour and Travels",
+    seoDescription: "Hike to Tiger's Nest Monastery in Paro, Bhutan. Guided pilgrimage tours, entry permit assistance, and dedicated tourist vehicles with NE Dhanya.",
+    status: "published",
+    createdAt: "2025-01-01T00:00:00.000Z",
+    updatedAt: "2025-01-01T00:00:00.000Z"
+  },
+
+  // ==========================================
+  // MIZORAM TOURIST PLACES
+  // ==========================================
+  {
+    id: "aizawl",
+    name: "Aizawl",
+    slug: "aizawl",
+    destinationSlug: "mizoram",
+    destinationName: "Mizoram",
+    shortDescription: "Dramatic mountain capital built along vertiginous cliff ridges, Solomon's Temple, Durtlang Hills & Mizo culture.",
+    description: "Perched dramatically along steep mountain ridges at an altitude of 3,700 feet, Aizawl is the scenic and cultural capital of Mizoram. Overlooking lush Tlawng river valley, Aizawl is renowned for its tranquil mountain atmosphere, the grand marble Solomon's Temple, panoramic Durtlang Hills viewpoints, the Mizoram State Museum, and the vibrant Bara Bazar.",
+    heroImage: "/images/mizoram.jpg",
+    topThingsToDo: [
+      "Enjoy breathtaking sunset views over the valley from Durtlang Hills",
+      "Visit the magnificent white marble Solomon's Temple in Chawlhhmun",
+      "Explore traditional Mizo textiles, bamboo crafts, and smoked tea at Bara Bazar",
+      "Day trip to the scenic peak and heritage village of Reiek Tlang"
+    ],
+    bestTimeToVisit: "October to April for cool, pleasant hill weather.",
+    howToReach: {
+      byAir: "Lengpui Airport (AJL) is located 32 km from Aizawl with flights to Kolkata and Guwahati.",
+      byRail: "Bairabi (130 km) or Silchar Railway Station in Assam (170 km).",
+      byRoad: "NH 306 connects Silchar to Aizawl via a winding mountain highway."
+    },
+    travelTips: [
+      "Inner Line Permit (ILP) is mandatory for Indian domestic visitors entering Mizoram.",
+      "Aizawl is renowned for its exceptional traffic discipline; honking is virtually non-existent."
+    ],
+    faqs: [
+      {
+        question: "How do I get an Inner Line Permit (ILP) for Mizoram?",
+        answer: "NE Dhanya Tour and Travels assists in obtaining online ILP for travelers entering via Lengpui Airport or Silchar road border."
+      }
+    ],
+    seoTitle: "Aizawl Tour Packages & Car Rental | NE Dhanya Tour and Travels",
+    seoDescription: "Visit Aizawl, Mizoram. Solomon's Temple, Durtlang Hills, Lengpui Airport taxi transfers & custom Mizoram tour packages with NE Dhanya.",
+    status: "published",
+    createdAt: "2025-01-01T00:00:00.000Z",
+    updatedAt: "2025-01-01T00:00:00.000Z"
+  },
+
+  // ==========================================
+  // TRIPURA TOURIST PLACES
+  // ==========================================
+  {
+    id: "agartala",
+    name: "Agartala & Ujjayanta Palace",
+    slug: "agartala",
+    destinationSlug: "tripura",
+    destinationName: "Tripura",
+    shortDescription: "Imperial royal capital featuring the neoclassical Ujjayanta Palace, Mughal gardens & heritage museums.",
+    description: "Agartala, the charming capital of Tripura, is rich in royal Manikya dynasty heritage, royal palaces, and tranquil lakes. The city's crown jewel is the gleaming white Ujjayanta Palace, set amidst formal Mughal-style gardens and fountains. Agartala also features the 14-Gods Temple (Chaturdasha Devata), heritage craft markets, and convenient road connectivity to Neermahal and Unakoti.",
+    heroImage: "/images/tripura.jpg",
+    topThingsToDo: [
+      "Tour the grand halls and heritage museum of Ujjayanta Palace",
+      "Witness the border retreat ceremony at Akhaura Integrated Check Post (India-Bangladesh)",
+      "Explore the 14-Gods Temple (Chaturdasha Devata) at Old Agartala",
+      "Day excursion to the floating lake palace of Neermahal at Rudrasagar Lake"
+    ],
+    bestTimeToVisit: "October to March for mild, dry winter climate.",
+    howToReach: {
+      byAir: "Maharaja Bir Bikram Airport (IXA) in Agartala connects to Kolkata, Guwahati, Delhi, and Bangalore.",
+      byRail: "Agartala Railway Station (AGTL) has direct broad-gauge trains including Rajdhani Express.",
+      byRoad: "NH 8 connects Tripura to Assam and the rest of Northeast India."
+    },
+    travelTips: [
+      "Combine Agartala with Neermahal and the ancient rock carvings of Unakoti for a complete Tripura circuit.",
+      "Tripura does not require an Inner Line Permit (ILP) for Indian citizens."
+    ],
+    faqs: [
+      {
+        question: "Can Neermahal be visited from Agartala in one day?",
+        answer: "Yes! Neermahal is located just 53 km south of Agartala, taking around 1.5 hours by private taxi."
+      }
+    ],
+    seoTitle: "Agartala Tour Packages & Tripura Taxi Service | NE Dhanya Tour and Travels",
+    seoDescription: "Book Agartala city tours, Ujjayanta Palace visits, Neermahal transfers & Tripura car rentals with NE Dhanya Tour and Travels.",
     status: "published",
     createdAt: "2025-01-01T00:00:00.000Z",
     updatedAt: "2025-01-01T00:00:00.000Z"
