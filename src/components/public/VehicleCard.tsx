@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import { Users, Briefcase, ShieldCheck, MessageCircle, Wind } from "lucide-react";
+import { Users, Briefcase, ShieldCheck, Wind } from "lucide-react";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 import { Vehicle } from "@/types";
 import { createWhatsAppLink, getVehicleEnquiryMessage } from "@/lib/whatsapp";
 
@@ -73,7 +74,7 @@ export const VehicleCard: React.FC<VehicleCardProps> = ({ vehicle, whatsappNumbe
             rel="noopener noreferrer"
             className="w-full flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl bg-forest-700 hover:bg-forest-800 text-white font-semibold text-xs sm:text-sm shadow-md hover:shadow-lg transition-all"
           >
-            <MessageCircle className="w-4 h-4 text-emerald-300" />
+            <WhatsAppIcon className="w-4 h-4 fill-current text-white" />
             <span>Enquire on WhatsApp</span>
           </a>
         </div>

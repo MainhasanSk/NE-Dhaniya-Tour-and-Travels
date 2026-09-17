@@ -8,11 +8,11 @@ import {
   Users, 
   Car, 
   Building2, 
-  MessageCircle, 
   MapPin, 
   CheckCircle2,
   Heart
 } from "lucide-react";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 import { getSiteSettings } from "@/lib/firebase/dataBridge";
 import { createWhatsAppLink, getGeneralEnquiryMessage } from "@/lib/whatsapp";
 import { Breadcrumbs } from "@/components/public/Breadcrumbs";
@@ -129,7 +129,7 @@ export default async function AboutUsPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 py-3.5 px-8 rounded-full bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold text-sm shadow-xl transition-all hover:scale-105"
             >
-              <MessageCircle className="w-4 h-4 fill-current" />
+              <WhatsAppIcon className="w-4 h-4 fill-current" />
               <span>Chat on WhatsApp</span>
             </a>
           </div>

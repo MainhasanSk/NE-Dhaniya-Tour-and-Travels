@@ -5,12 +5,12 @@ import {
   Phone, 
   Mail, 
   MapPin, 
-  MessageCircle, 
   Clock, 
   ShieldCheck, 
   Award, 
   CheckCircle2 
 } from "lucide-react";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 import { SiteSettings } from "@/types";
 import { createWhatsAppLink, getGeneralEnquiryMessage } from "@/lib/whatsapp";
 
@@ -81,7 +81,7 @@ export const Footer: React.FC<FooterProps> = ({ settings }) => {
 
           <div className="flex items-start gap-4 p-4 rounded-xl bg-slate-900/60 border border-slate-800/50">
             <div className="w-10 h-10 rounded-lg bg-emerald-500/10 flex items-center justify-center shrink-0 text-emerald-400">
-              <MessageCircle className="w-5 h-5" />
+              <WhatsAppIcon className="w-5 h-5 fill-current" />
             </div>
             <div>
               <h4 className="text-sm font-semibold text-white">Fast WhatsApp Booking</h4>
@@ -116,7 +116,7 @@ export const Footer: React.FC<FooterProps> = ({ settings }) => {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-xs font-semibold px-4 py-2.5 rounded-full bg-forest-600 hover:bg-forest-700 text-white transition-all shadow hover:shadow-emerald-500/20"
               >
-                <MessageCircle className="w-4 h-4 text-emerald-300" />
+                <WhatsAppIcon className="w-4 h-4 text-white fill-current" />
                 <span>Chat on WhatsApp (24/7 Support)</span>
               </a>
             </div>
@@ -184,7 +184,7 @@ export const Footer: React.FC<FooterProps> = ({ settings }) => {
                 </div>
               </li>
               <li className="flex items-center gap-2.5">
-                <MessageCircle className="w-4 h-4 text-emerald-400 shrink-0" />
+                <WhatsAppIcon className="w-4 h-4 text-[#25D366] fill-current shrink-0" />
                 <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="hover:text-white">
                   WhatsApp Support
                 </a>

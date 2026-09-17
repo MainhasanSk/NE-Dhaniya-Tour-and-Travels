@@ -10,11 +10,11 @@ import {
   Train, 
   Car, 
   ShieldCheck, 
-  MessageCircle, 
   Check, 
   ArrowRight,
   Compass
 } from "lucide-react";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 import { 
   getDestinationBySlug, 
   getTouristPlacesByDestination, 
@@ -111,7 +111,7 @@ export default async function DestinationDetailPage({ params }: Props) {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 py-3.5 px-8 rounded-full bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold text-sm shadow-xl transition-all hover:scale-105"
             >
-              <MessageCircle className="w-4 h-4 fill-current" />
+              <WhatsAppIcon className="w-4 h-4 fill-current" />
               <span>Plan {dest.name} Trip on WhatsApp</span>
             </a>
             <a
@@ -360,7 +360,7 @@ export default async function DestinationDetailPage({ params }: Props) {
               rel="noopener noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 py-3.5 px-8 rounded-full bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold text-sm shadow-xl transition-all hover:scale-105"
             >
-              <MessageCircle className="w-4 h-4 fill-current" />
+              <WhatsAppIcon className="w-4 h-4 fill-current" />
               <span>Plan {dest.name} Trip on WhatsApp</span>
             </a>
             <Link

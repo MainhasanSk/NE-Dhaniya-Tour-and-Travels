@@ -4,7 +4,8 @@ import { getAllPackages, getSiteSettings } from "@/lib/firebase/dataBridge";
 import { Breadcrumbs } from "@/components/public/Breadcrumbs";
 import { PackageCard } from "@/components/public/PackageCard";
 import { createWhatsAppLink, getGeneralEnquiryMessage } from "@/lib/whatsapp";
-import { MessageCircle, ShieldCheck } from "lucide-react";
+import { ShieldCheck } from "lucide-react";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 
 export const metadata: Metadata = {
   title: "Northeast India Tour Packages | Meghalaya, Tawang, Kaziranga & Bhutan",
@@ -74,7 +75,7 @@ export default async function TourPackagesPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 py-3 px-8 rounded-full bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold text-sm shadow-xl transition-all hover:scale-105"
             >
-              <MessageCircle className="w-4 h-4 fill-current" />
+              <WhatsAppIcon className="w-4 h-4 fill-current" />
               <span>Get Custom Itinerary on WhatsApp</span>
             </a>
           </div>

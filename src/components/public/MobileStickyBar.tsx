@@ -3,7 +3,8 @@
 import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, Compass, Package, MessageCircle } from "lucide-react";
+import { Home, Compass, Package } from "lucide-react";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 import { createWhatsAppLink, getGeneralEnquiryMessage } from "@/lib/whatsapp";
 
 interface MobileStickyBarProps {
@@ -64,7 +65,7 @@ export const MobileStickyBar: React.FC<MobileStickyBarProps> = ({ whatsappNumber
           className="flex flex-col items-center py-1 text-emerald-600 font-bold"
         >
           <div className="w-6 h-6 rounded-full bg-[#25D366] text-white flex items-center justify-center shadow-sm">
-            <MessageCircle className="w-4 h-4 fill-current" />
+            <WhatsAppIcon className="w-4 h-4 fill-current" />
           </div>
           <span className="text-[10px] mt-0.5">WhatsApp</span>
         </a>

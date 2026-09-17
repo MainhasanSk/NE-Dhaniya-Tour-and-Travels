@@ -9,12 +9,12 @@ import {
   Car, 
   Check, 
   X, 
-  MessageCircle, 
   Building2, 
   ShieldCheck, 
   Calendar,
   Users
 } from "lucide-react";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 import { getPackageBySlug, getSiteSettings } from "@/lib/firebase/dataBridge";
 import { createWhatsAppLink, getPackageEnquiryMessage } from "@/lib/whatsapp";
 import { Breadcrumbs } from "@/components/public/Breadcrumbs";
@@ -107,7 +107,7 @@ export default async function TourPackageDetailPage({ params }: Props) {
               rel="noopener noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 py-3.5 px-8 rounded-full bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold text-sm shadow-xl transition-all hover:scale-105"
             >
-              <MessageCircle className="w-4 h-4 fill-current" />
+              <WhatsAppIcon className="w-4 h-4 fill-current" />
               <span>Get Customized Quote on WhatsApp</span>
             </a>
             <a
@@ -287,7 +287,7 @@ export default async function TourPackageDetailPage({ params }: Props) {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 py-4 px-10 rounded-full bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold text-sm sm:text-base shadow-2xl transition-all hover:scale-105"
             >
-              <MessageCircle className="w-5 h-5 fill-current" />
+              <WhatsAppIcon className="w-5 h-5 fill-current" />
               <span>Get Customized Quote on WhatsApp</span>
             </a>
           </div>

@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { MessageCircle, Phone, Calendar, Users, Car, Check, Clock, Filter } from "lucide-react";
+import { Phone, Calendar, Users, Car, Check, Clock, Filter } from "lucide-react";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 import { getAllEnquiries, updateEnquiryStatus } from "@/lib/firebase/dataBridge";
 import { Enquiry } from "@/types";
 import { createWhatsAppLink } from "@/lib/whatsapp";
@@ -134,7 +135,7 @@ export default function AdminEnquiriesPage() {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 py-2 px-4 rounded-xl bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold text-xs shadow-md transition-all hover:scale-105"
                   >
-                    <MessageCircle className="w-4 h-4 fill-current" />
+                    <WhatsAppIcon className="w-4 h-4 fill-current" />
                     <span>Open WhatsApp</span>
                   </a>
                 </div>

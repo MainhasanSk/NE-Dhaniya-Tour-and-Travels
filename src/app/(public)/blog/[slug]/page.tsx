@@ -7,13 +7,13 @@ import {
   Clock, 
   User, 
   Calendar, 
-  MessageCircle, 
   ArrowRight, 
   MapPin, 
   Package, 
   Share2,
   Tag
 } from "lucide-react";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 import { 
   getBlogPostBySlug, 
   getSiteSettings, 
@@ -222,7 +222,7 @@ export default async function BlogPostPage({ params }: Props) {
               rel="noopener noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 py-3.5 px-8 rounded-full bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold text-sm shadow-xl transition-all hover:scale-105"
             >
-              <MessageCircle className="w-4 h-4 fill-current" />
+              <WhatsAppIcon className="w-4 h-4 fill-current" />
               <span>Plan My Trip on WhatsApp</span>
             </a>
             <Link

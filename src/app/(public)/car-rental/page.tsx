@@ -7,11 +7,11 @@ import {
   Plane, 
   MapPin, 
   Users, 
-  MessageCircle, 
   Check, 
   ArrowRight,
   Phone
 } from "lucide-react";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 import { getAllVehicles, getSiteSettings } from "@/lib/firebase/dataBridge";
 import { Breadcrumbs } from "@/components/public/Breadcrumbs";
 import { VehicleCard } from "@/components/public/VehicleCard";
@@ -198,7 +198,7 @@ export default async function CarRentalPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 py-3.5 px-8 rounded-full bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold text-sm shadow-xl transition-all hover:scale-105"
             >
-              <MessageCircle className="w-4 h-4 fill-current" />
+              <WhatsAppIcon className="w-4 h-4 fill-current" />
               <span>Book Vehicle on WhatsApp</span>
             </a>
           </div>

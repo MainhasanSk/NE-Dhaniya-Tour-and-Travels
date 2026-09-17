@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { Settings, Save, CheckCircle, MessageCircle, Globe, Phone, Mail, MapPin } from "lucide-react";
+import { Settings, Save, CheckCircle, Globe, Phone, Mail, MapPin } from "lucide-react";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 import { getSiteSettings, saveSiteSettings } from "@/lib/firebase/dataBridge";
 import { SiteSettings } from "@/types";
 
@@ -57,7 +58,7 @@ export default function AdminSettingsPage() {
         {/* Core WhatsApp & Contact Card */}
         <div className="bg-slate-950 p-6 sm:p-8 rounded-3xl border border-slate-800 space-y-5">
           <div className="flex items-center gap-2 text-emerald-400 text-sm font-bold uppercase tracking-wider pb-3 border-b border-slate-800">
-            <MessageCircle className="w-4 h-4" />
+            <WhatsAppIcon className="w-4 h-4 text-[#25D366] fill-current" />
             <span>Primary WhatsApp & Direct Contacts</span>
           </div>
 

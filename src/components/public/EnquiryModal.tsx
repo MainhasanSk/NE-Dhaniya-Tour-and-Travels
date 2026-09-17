@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import { X, MessageCircle, Send, CheckCircle2, ShieldCheck } from "lucide-react";
+import { X, Send, CheckCircle2, ShieldCheck } from "lucide-react";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 import { submitEnquiry } from "@/lib/firebase/dataBridge";
 import { createWhatsAppLink, getTripSearchMessage } from "@/lib/whatsapp";
 
@@ -271,7 +272,7 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({
                 disabled={submitting}
                 className="w-full flex items-center justify-center gap-2 py-3 px-6 rounded-2xl bg-forest-700 hover:bg-forest-800 text-white font-bold text-sm shadow-xl hover:shadow-2xl transition-all disabled:opacity-50"
               >
-                <MessageCircle className="w-5 h-5 text-emerald-300" />
+                <WhatsAppIcon className="w-5 h-5 fill-current text-white" />
                 <span>{submitting ? "Processing..." : "Get My Free Quote on WhatsApp"}</span>
               </button>
 

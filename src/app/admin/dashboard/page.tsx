@@ -9,10 +9,10 @@ import {
   Car, 
   ArrowRight, 
   Plus, 
-  MessageCircle,
   Clock,
   CheckCircle2
 } from "lucide-react";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 import { 
   getAllDestinations, 
   getAllTouristPlaces, 
@@ -178,7 +178,7 @@ export default async function AdminDashboardPage() {
                     rel="noopener noreferrer"
                     className="shrink-0 flex items-center gap-1.5 py-2 px-3 rounded-xl bg-[#25D366] hover:bg-[#20ba5a] text-white text-xs font-bold shadow"
                   >
-                    <MessageCircle className="w-3.5 h-3.5 fill-current" />
+                    <WhatsAppIcon className="w-3.5 h-3.5 fill-current" />
                     <span>WhatsApp</span>
                   </a>
                 </div>

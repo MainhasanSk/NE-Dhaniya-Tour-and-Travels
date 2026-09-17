@@ -1,5 +1,6 @@
 import React from "react";
-import { Compass, Users, Car, MessageCircle, MapPin, CheckCircle } from "lucide-react";
+import { Compass, Users, Car, MapPin, CheckCircle } from "lucide-react";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 
 export const TrustSection: React.FC = () => {
   const cards = [
@@ -19,7 +20,7 @@ export const TrustSection: React.FC = () => {
       description: "All-in-one trip coordination: curated tour packages, well-maintained vehicles, verified hotel bookings & permit support.",
     },
     {
-      icon: <MessageCircle className="w-6 h-6 text-emerald-600" />,
+      icon: <WhatsAppIcon className="w-6 h-6 text-[#25D366] fill-current" />,
       title: "Easy WhatsApp Booking",
       description: "No complicated booking forms or waiting. Plan, customize, and finalize your complete Northeast tour directly on WhatsApp.",
     },

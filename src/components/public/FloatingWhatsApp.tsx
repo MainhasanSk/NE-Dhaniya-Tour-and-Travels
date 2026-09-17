@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import { MessageCircle, X } from "lucide-react";
+import { X } from "lucide-react";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 import { createWhatsAppLink, getGeneralEnquiryMessage } from "@/lib/whatsapp";
 
 interface FloatingWhatsAppProps {
@@ -40,7 +41,7 @@ export const FloatingWhatsApp: React.FC<FloatingWhatsAppProps> = ({ whatsappNumb
         aria-label="Chat with NE Dhaniya Tours on WhatsApp"
         className="w-14 h-14 rounded-full bg-[#25D366] text-white flex items-center justify-center shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 whatsapp-pulse group"
       >
-        <MessageCircle className="w-8 h-8 fill-current group-hover:rotate-12 transition-transform duration-300" />
+        <WhatsAppIcon className="w-8 h-8 fill-current group-hover:rotate-12 transition-transform duration-300" />
       </a>
     </div>
   );

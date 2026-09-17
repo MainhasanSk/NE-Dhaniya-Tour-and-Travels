@@ -8,13 +8,13 @@ import {
   X, 
   Phone, 
   Compass, 
-  MessageCircle, 
   Car, 
   Building2, 
   BookOpen, 
   ShieldCheck, 
   ChevronDown 
 } from "lucide-react";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 import { SiteSettings } from "@/types";
 import { createWhatsAppLink, getGeneralEnquiryMessage } from "@/lib/whatsapp";
 
@@ -212,7 +212,7 @@ export const Header: React.FC<HeaderProps> = ({ settings }) => {
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-xs font-semibold px-4 py-2.5 rounded-full bg-forest-600 hover:bg-forest-700 text-white shadow-md hover:shadow-lg transition-all hover:scale-105"
           >
-            <MessageCircle className="w-4 h-4 fill-current text-emerald-300" />
+            <WhatsAppIcon className="w-4 h-4 fill-current text-white" />
             <span>WhatsApp Us</span>
           </a>
         </div>
@@ -246,7 +246,7 @@ export const Header: React.FC<HeaderProps> = ({ settings }) => {
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 py-2.5 px-3 bg-forest-700 text-white rounded-xl text-xs font-semibold shadow"
             >
-              <MessageCircle className="w-4 h-4 text-emerald-300" />
+              <WhatsAppIcon className="w-4 h-4 text-white fill-current" />
               WhatsApp Us
             </a>
           </div>

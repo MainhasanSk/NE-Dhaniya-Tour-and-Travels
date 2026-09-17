@@ -9,12 +9,12 @@ import {
   Plane, 
   Train, 
   Car, 
-  MessageCircle, 
   Check, 
   ArrowRight,
   Sparkles,
   ShieldCheck
 } from "lucide-react";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 import { 
   getDestinationBySlug, 
   getTouristPlaceBySlug, 
@@ -111,7 +111,7 @@ export default async function TouristPlaceDetailPage({ params }: Props) {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 py-3.5 px-8 rounded-full bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold text-sm shadow-xl transition-all hover:scale-105"
             >
-              <MessageCircle className="w-4 h-4 fill-current" />
+              <WhatsAppIcon className="w-4 h-4 fill-current" />
               <span>Book {place.name} Trip on WhatsApp</span>
             </a>
             <Link
@@ -195,7 +195,7 @@ export default async function TouristPlaceDetailPage({ params }: Props) {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 py-3 px-6 rounded-full bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold text-xs sm:text-sm shadow-xl transition-all"
               >
-                <MessageCircle className="w-4 h-4 fill-current" />
+                <WhatsAppIcon className="w-4 h-4 fill-current" />
                 <span>Get {place.name} Taxi Fare on WhatsApp</span>
               </a>
               <Link
@@ -299,7 +299,7 @@ export default async function TouristPlaceDetailPage({ params }: Props) {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 py-3 px-8 rounded-full bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold text-sm shadow-xl transition-all hover:scale-105"
             >
-              <MessageCircle className="w-4 h-4 fill-current" />
+              <WhatsAppIcon className="w-4 h-4 fill-current" />
               <span>Chat on WhatsApp</span>
             </a>
           </div>

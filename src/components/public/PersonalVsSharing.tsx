@@ -7,9 +7,9 @@ import {
   Heart, 
   Wallet, 
   Clock, 
-  ShieldCheck, 
-  MessageCircle 
+  ShieldCheck 
 } from "lucide-react";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 import { createWhatsAppLink } from "@/lib/whatsapp";
 
 interface PersonalVsSharingProps {
@@ -105,7 +105,7 @@ export const PersonalVsSharing: React.FC<PersonalVsSharingProps> = ({ whatsappNu
                 rel="noopener noreferrer"
                 className="w-full sm:flex-1 flex items-center justify-center gap-2 py-3 px-6 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-sm transition-all shadow-lg hover:shadow-emerald-500/25"
               >
-                <MessageCircle className="w-4 h-4 text-emerald-100" />
+                <WhatsAppIcon className="w-4 h-4 fill-current text-white" />
                 <span>Plan Personal Trip</span>
               </a>
               <Link
@@ -171,7 +171,7 @@ export const PersonalVsSharing: React.FC<PersonalVsSharingProps> = ({ whatsappNu
                 rel="noopener noreferrer"
                 className="w-full sm:flex-1 flex items-center justify-center gap-2 py-3 px-6 rounded-xl bg-amber-600 hover:bg-amber-500 text-white font-semibold text-sm transition-all shadow-lg hover:shadow-amber-500/25"
               >
-                <MessageCircle className="w-4 h-4 text-amber-100" />
+                <WhatsAppIcon className="w-4 h-4 fill-current text-white" />
                 <span>Explore Sharing Tours</span>
               </a>
               <Link

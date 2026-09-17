@@ -4,7 +4,7 @@ import { getAllDestinations, getSiteSettings } from "@/lib/firebase/dataBridge";
 import { DestinationCard } from "@/components/public/DestinationCard";
 import { Breadcrumbs } from "@/components/public/Breadcrumbs";
 import { createWhatsAppLink, getGeneralEnquiryMessage } from "@/lib/whatsapp";
-import { MessageCircle } from "lucide-react";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 
 export const metadata: Metadata = {
   title: "Northeast India & Bhutan Destinations | Tour Packages & Travel Guides",
@@ -64,7 +64,7 @@ export default async function DestinationsPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 py-3 px-8 rounded-full bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold text-sm shadow-xl transition-all hover:scale-105"
             >
-              <MessageCircle className="w-4 h-4 fill-current" />
+              <WhatsAppIcon className="w-4 h-4 fill-current" />
               <span>Talk to Travel Expert on WhatsApp</span>
             </a>
           </div>

@@ -3,7 +3,6 @@
 import React, { useState } from "react";
 import { 
   Phone, 
-  MessageCircle, 
   Mail, 
   MapPin, 
   Clock, 
@@ -11,6 +10,7 @@ import {
   CheckCircle2, 
   ShieldCheck 
 } from "lucide-react";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 import { Breadcrumbs } from "@/components/public/Breadcrumbs";
 import { createWhatsAppLink } from "@/lib/whatsapp";
 import { submitEnquiry } from "@/lib/firebase/dataBridge";
@@ -118,7 +118,7 @@ export default function ContactPage() {
 
             <div className="space-y-4 text-xs sm:text-sm text-slate-600">
               <div className="flex items-start gap-3.5 p-4 rounded-2xl bg-emerald-50/70 border border-emerald-100 text-emerald-950">
-                <MessageCircle className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
+                <WhatsAppIcon className="w-5 h-5 text-[#25D366] fill-current shrink-0 mt-0.5" />
                 <div>
                   <strong className="block text-slate-900">WhatsApp (Fastest Response)</strong>
                   <span>24/7 Trip Consultations & Quotes</span>
@@ -301,7 +301,7 @@ export default function ContactPage() {
                     disabled={submitting}
                     className="w-full flex items-center justify-center gap-2 py-4 px-8 rounded-2xl bg-forest-700 hover:bg-forest-800 text-white font-bold text-sm sm:text-base shadow-xl hover:shadow-2xl transition-all disabled:opacity-50"
                   >
-                    <MessageCircle className="w-5 h-5 text-emerald-300 fill-current" />
+                    <WhatsAppIcon className="w-5 h-5 text-white fill-current" />
                     <span>{submitting ? "Sending..." : "Submit & Connect on WhatsApp"}</span>
                   </button>
 

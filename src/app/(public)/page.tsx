@@ -5,7 +5,6 @@ import {
   Compass, 
   MapPin, 
   Phone, 
-  MessageCircle, 
   Car, 
   ShieldCheck, 
   Calendar, 
@@ -24,6 +23,7 @@ import {
   getAllBlogPosts 
 } from "@/lib/firebase/dataBridge";
 import { createWhatsAppLink, getGeneralEnquiryMessage } from "@/lib/whatsapp";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 import { TripSearchWidget } from "@/components/public/TripSearchWidget";
 import { TrustSection } from "@/components/public/TrustSection";
 import { DestinationCard } from "@/components/public/DestinationCard";
@@ -31,6 +31,8 @@ import { PackageCard } from "@/components/public/PackageCard";
 import { PersonalVsSharing } from "@/components/public/PersonalVsSharing";
 import { VehicleCard } from "@/components/public/VehicleCard";
 import { FAQAccordion } from "@/components/public/FAQAccordion";
+import { TestimonialSlider } from "@/components/public/TestimonialSlider";
+import { HomeHotelSection } from "@/components/public/HomeHotelSection";
 
 export default async function HomePage() {
   const settings = await getSiteSettings();
@@ -76,14 +78,15 @@ export default async function HomePage() {
         {/* Cinematic Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=2000&q=85"
-            alt="Scenic Northeast India Mountains, Waterfalls & Roads"
+            src="/images/northeast-hero-bg.jpg"
+            alt="Scenic Northeast India Himalayas, Tea Valleys, Waterfalls & Mountain Roads"
             fill
             priority
-            className="object-cover object-center brightness-[0.42] scale-105 transition-transform duration-1000"
+            className="object-cover object-center brightness-[0.52] contrast-[1.06] scale-105 transition-transform duration-1000"
           />
           {/* Subtle gradient overlay */}
-          <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-forest-950/40 to-black/60" />
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-forest-950/35 to-black/55" />
+          <div className="absolute inset-0 bg-radial-gradient from-transparent via-black/20 to-black/60 pointer-events-none" />
         </div>
 
         <div className="relative z-10 max-w-5xl mx-auto text-center mt-6">
@@ -115,7 +118,7 @@ export default async function HomePage() {
               rel="noopener noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 py-3.5 px-8 rounded-full bg-forest-600 hover:bg-forest-500 text-white font-bold text-sm sm:text-base shadow-xl hover:shadow-emerald-500/30 transition-all hover:scale-105 active:scale-95"
             >
-              <MessageCircle className="w-5 h-5 text-emerald-200 fill-current" />
+              <WhatsAppIcon className="w-5 h-5 fill-current text-white" />
               <span>Plan My Trip on WhatsApp</span>
             </a>
 
@@ -325,8 +328,8 @@ export default async function HomePage() {
             </div>
 
             <div className="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:border-emerald-200 transition-all">
-              <div className="w-12 h-12 rounded-2xl bg-emerald-100 text-emerald-700 flex items-center justify-center mb-5">
-                <MessageCircle className="w-6 h-6" />
+              <div className="w-12 h-12 rounded-2xl bg-emerald-100 text-[#25D366] flex items-center justify-center mb-5">
+                <WhatsAppIcon className="w-6 h-6 fill-current" />
               </div>
               <h3 className="text-lg font-bold text-slate-900 mb-2">Easy WhatsApp Booking</h3>
               <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
@@ -339,45 +342,11 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* 8. HOTEL BOOKING HIGHLIGHT (Section 22) */}
-      <section className="py-16 bg-forest-950 text-white relative overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col lg:flex-row items-center justify-between gap-10">
-          
-          <div className="max-w-2xl">
-            <span className="text-xs font-bold uppercase tracking-wider text-emerald-400 bg-emerald-900/60 px-3 py-1 rounded-full border border-emerald-500/30">
-              Verified Stays & Homestays
-            </span>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-white mt-4 font-heading">
-              Complete Hotel Booking Assistance Across Northeast India & Bhutan
-            </h2>
-            <p className="text-sm sm:text-base text-slate-300 mt-3 leading-relaxed">
-              From peaceful riverside camps in Dawki and heritage tea estate bungalows in Assam to cozy mountain cottages in Tawang and luxury resorts in Shillong.
-            </p>
-            <div className="mt-6 flex flex-wrap gap-4 text-xs sm:text-sm text-slate-300">
-              <span className="flex items-center gap-1.5 text-emerald-300">
-                <Check className="w-4 h-4" /> Budget & Deluxe Stays
-              </span>
-              <span className="flex items-center gap-1.5 text-emerald-300">
-                <Check className="w-4 h-4" /> Verified Clean Bathrooms
-              </span>
-              <span className="flex items-center gap-1.5 text-emerald-300">
-                <Check className="w-4 h-4" /> Family & Couple Friendly
-              </span>
-            </div>
-          </div>
+      {/* 8. TESTIMONIALS SLIDER SECTION */}
+      <TestimonialSlider whatsappNumber={settings.whatsappNumber} />
 
-          <div className="shrink-0">
-            <Link
-              href="/hotel-booking"
-              className="inline-flex items-center gap-2 py-3.5 px-8 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm sm:text-base shadow-xl hover:shadow-emerald-500/30 transition-all hover:scale-105"
-            >
-              <Building2 className="w-5 h-5 text-emerald-100" />
-              <span>Explore Hotel Assistance</span>
-            </Link>
-          </div>
-
-        </div>
-      </section>
+      {/* 9. HOTEL BOOKING HIGHLIGHT (Section 22) */}
+      <HomeHotelSection whatsappNumber={settings.whatsappNumber} />
 
       {/* 9. TRAVEL GUIDE / BLOG PREVIEW (Section 26) */}
       <section className="py-20 bg-white">
@@ -468,7 +437,7 @@ export default async function HomePage() {
               rel="noopener noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 py-4 px-10 rounded-full bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold text-sm sm:text-base shadow-2xl transition-all hover:scale-105 active:scale-95"
             >
-              <MessageCircle className="w-5 h-5 fill-current text-white" />
+              <WhatsAppIcon className="w-5 h-5 fill-current text-white" />
               <span>Plan My Trip on WhatsApp</span>
             </a>
             <a
